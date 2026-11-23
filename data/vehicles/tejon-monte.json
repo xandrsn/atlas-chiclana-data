@@ -1,0 +1,79 @@
+{
+ "id": "tejon-monte",
+ "make": "Mitsubishi",
+ "model": "Montero 3p",
+ "archetype": "todoterreno",
+ "era": [
+  1991,
+  2000
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 5,
+ "dims": {
+  "length": 4.05,
+  "width": 1.7,
+  "height": 1.85,
+  "wheelbase": 2.35,
+  "track": 1.425,
+  "wheelRadius": 0.37,
+  "wheelWidth": 0.24,
+  "groundClearance": 0.3
+ },
+ "body": {
+  "belt": 1.12,
+  "noseH": 1,
+  "tailH": 1.12,
+  "hood": 0.9,
+  "deck": 0.04,
+  "wsRake": 0.38,
+  "rearRake": 0.03,
+  "tumble": 0.07,
+  "rack": true,
+  "bullbar": true,
+  "windows": {
+   "from": 0.04,
+   "to": 0.95,
+   "panes": 3
+  }
+ },
+ "shape": {
+  "flare": 0.025,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 0.8
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "awd",
+  "grip": 0.92,
+  "rearGrip": 0.9,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 34,
+  "steerSpeedFalloff": 0.55,
+  "comHeight": 0.75,
+  "mass": 1750,
+  "powerKW": 73,
+  "maxSpeedKmh": 150,
+  "accel0to100": 18,
+  "brakeDecel": 7.5,
+  "suspension": {
+   "stiffness": 26000,
+   "damping": 2600,
+   "travel": 0.24,
+   "rollFactor": 1
+  }
+ },
+ "palette": [
+  "#3d5a3a",
+  "#b9ad8a",
+  "#7a1f22",
+  "#e8e6de",
+  "#2a3a55",
+  "#5a4a3a"
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "vega-cordel-taxi",
+ "make": "Škoda",
+ "model": "Octavia I (taxi)",
+ "archetype": "taxi",
+ "era": [
+  1997,
+  2004
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 4,
+ "dims": {
+  "length": 4.51,
+  "width": 1.73,
+  "height": 1.43,
+  "wheelbase": 2.51,
+  "track": 1.5,
+  "wheelRadius": 0.31,
+  "wheelWidth": 0.185,
+  "groundClearance": 0.16
+ },
+ "body": {
+  "belt": 0.88,
+  "noseH": 0.74,
+  "tailH": 0.9,
+  "hood": 1,
+  "deck": 0.6,
+  "wsRake": 0.66,
+  "rearRake": 0.55,
+  "tumble": 0.14,
+  "windows": {
+   "from": 0.05,
+   "to": 0.95,
+   "panes": 2
+  },
+  "stripe": {
+   "color": "#c8202a",
+   "y0": 0.5,
+   "y1": 0.6
+  },
+  "roofBox": {
+   "w": 0.42,
+   "h": 0.12,
+   "d": 0.2,
+   "colors": [
+    "#f2efe2"
+   ]
+  }
+ },
+ "shape": {
+  "boot": 0.3,
+  "crown": 0.015
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 36,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1260,
+  "powerKW": 66,
+  "maxSpeedKmh": 175,
+  "accel0to100": 14.5,
+  "brakeDecel": 8,
+  "comHeight": 0.52,
+  "suspension": {
+   "stiffness": 28600,
+   "damping": 2574,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#f4f4ee"
+ ]
+}

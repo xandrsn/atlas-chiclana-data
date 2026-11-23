@@ -1,0 +1,74 @@
+{
+ "id": "vencejo-burbuja",
+ "make": "Vencejo",
+ "model": "Burbuja",
+ "archetype": "helicoptero",
+ "era": [
+  1990,
+  2004
+ ],
+ "kind": "heli",
+ "seats": 2,
+ "spawnWeight": 0,
+ "dims": {
+  "length": 8.2,
+  "width": 1.8,
+  "height": 2.6,
+  "rotor": 7.6,
+  "skidTrack": 1.7
+ },
+ "body": {
+  "cab": [
+   [
+    -0.9,
+    0.6
+   ],
+   [
+    0.7,
+    0.6
+   ],
+   [
+    1.3,
+    1
+   ],
+   [
+    1.25,
+    1.6
+   ],
+   [
+    0.6,
+    2
+   ],
+   [
+    -0.7,
+    2
+   ],
+   [
+    -1.1,
+    1.4
+   ]
+  ],
+  "glass": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "mast": 2.5,
+  "boom": -4.9
+ },
+ "flight": {
+  "maxSpeedKmh": 230,
+  "accel": 20,
+  "climb": 17,
+  "yawRate": 2.2,
+  "ceiling": 320
+ },
+ "palette": [
+  "#e0b020",
+  "#e9e9e4",
+  "#c42020",
+  "#1e5aa8",
+  "#3a6b45"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "id": "alcor-picaro",
+ "make": "Renault",
+ "model": "Clio II",
+ "archetype": "utilitario",
+ "era": [
+  1998,
+  2005
+ ],
+ "kind": "car",
+ "seats": 4,
+ "spawnWeight": 14,
+ "dims": {
+  "length": 3.77,
+  "width": 1.64,
+  "height": 1.42,
+  "wheelbase": 2.47,
+  "track": 1.43,
+  "wheelRadius": 0.29,
+  "wheelWidth": 0.17,
+  "groundClearance": 0.16
+ },
+ "body": {
+  "belt": 0.88,
+  "noseH": 0.72,
+  "tailH": 0.9,
+  "hood": 0.85,
+  "deck": 0.2,
+  "wsRake": 0.66,
+  "rearRake": 0.36,
+  "tumble": 0.14,
+  "windows": {
+   "from": 0.05,
+   "to": 0.95,
+   "panes": 2
+  }
+ },
+ "shape": {
+  "crown": 0.015,
+  "flare": 0.02,
+  "lamp": {
+   "h": [
+    0.4,
+    0.95
+   ],
+   "w": 1.25
+  },
+  "tail": {
+   "h": [
+    0.4,
+    0.85
+   ],
+   "w": 0.7
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 37,
+  "steerSpeedFalloff": 0.55,
+  "mass": 960,
+  "powerKW": 55,
+  "maxSpeedKmh": 170,
+  "accel0to100": 12.9,
+  "brakeDecel": 8,
+  "comHeight": 0.5,
+  "suspension": {
+   "stiffness": 28000,
+   "damping": 2400,
+   "travel": 0.16,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#b8262b",
+  "#f1efe6",
+  "#2f5d9a",
+  "#d9c34a",
+  "#3d6b45",
+  "#9aa1a6",
+  "#1d1f22"
+ ]
+}

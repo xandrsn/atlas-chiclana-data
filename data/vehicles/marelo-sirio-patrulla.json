@@ -1,0 +1,86 @@
+{
+ "id": "marelo-sirio-patrulla",
+ "make": "Renault",
+ "model": "Mégane I (policía local)",
+ "archetype": "patrulla",
+ "era": [
+  1996,
+  2002
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 1,
+ "dims": {
+  "length": 4.2,
+  "width": 1.7,
+  "height": 1.42,
+  "wheelbase": 2.58,
+  "track": 1.46,
+  "wheelRadius": 0.3,
+  "wheelWidth": 0.19,
+  "groundClearance": 0.17
+ },
+ "body": {
+  "belt": 0.88,
+  "noseH": 0.74,
+  "tailH": 0.9,
+  "hood": 0.92,
+  "deck": 0.24,
+  "wsRake": 0.65,
+  "rearRake": 0.36,
+  "tumble": 0.15,
+  "windows": {
+   "from": 0.06,
+   "to": 0.94,
+   "panes": 2
+  },
+  "stripe": {
+   "color": "#1d4596",
+   "y0": 0.48,
+   "y1": 0.66
+  },
+  "roofBox": {
+   "w": 1.1,
+   "h": 0.1,
+   "d": 0.24,
+   "colors": [
+    "#2b5cff",
+    "#2b5cff"
+   ]
+  }
+ },
+ "shape": {
+  "crown": 0.015,
+  "lamp": {
+   "h": [
+    0.4,
+    0.95
+   ],
+   "w": 1.2
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 35,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1100,
+  "powerKW": 79,
+  "maxSpeedKmh": 195,
+  "accel0to100": 10.5,
+  "brakeDecel": 8.5,
+  "comHeight": 0.52,
+  "suspension": {
+   "stiffness": 36000,
+   "damping": 3300,
+   "travel": 0.15,
+   "rollFactor": 0.5
+  }
+ },
+ "palette": [
+  "#f6f6f2"
+ ]
+}

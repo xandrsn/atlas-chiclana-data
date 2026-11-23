@@ -1,0 +1,77 @@
+{
+ "id": "tordo-carguero",
+ "make": "Mercedes-Benz",
+ "model": "Vito (W638)",
+ "archetype": "furgoneta",
+ "era": [
+  1996,
+  2003
+ ],
+ "kind": "car",
+ "seats": 3,
+ "spawnWeight": 5,
+ "dims": {
+  "length": 4.64,
+  "width": 1.88,
+  "height": 1.92,
+  "wheelbase": 3,
+  "track": 1.58,
+  "wheelRadius": 0.32,
+  "wheelWidth": 0.2,
+  "groundClearance": 0.2
+ },
+ "body": {
+  "belt": 1,
+  "noseH": 0.86,
+  "tailH": 1,
+  "hood": 0.5,
+  "deck": 0,
+  "wsRake": 0.5,
+  "rearRake": 0.03,
+  "tumble": 0.05,
+  "windows": {
+   "from": 0.76,
+   "to": 0.97,
+   "panes": 1
+  }
+ },
+ "shape": {
+  "rearGlass": false,
+  "crown": 0.02,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 1.1
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 35,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1900,
+  "powerKW": 75,
+  "maxSpeedKmh": 160,
+  "accel0to100": 17,
+  "brakeDecel": 8,
+  "comHeight": 0.85,
+  "suspension": {
+   "stiffness": 49400,
+   "damping": 4446,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#f2f1ea",
+  "#e6e2d2",
+  "#2e4f8a",
+  "#9c1f22",
+  "#c9ccce"
+ ]
+}

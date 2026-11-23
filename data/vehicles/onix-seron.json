@@ -1,0 +1,78 @@
+{
+ "id": "onix-seron",
+ "make": "Ford",
+ "model": "Mondeo Turnier (Mk2)",
+ "archetype": "familiar",
+ "era": [
+  1996,
+  2000
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 4,
+ "dims": {
+  "length": 4.74,
+  "width": 1.75,
+  "height": 1.45,
+  "wheelbase": 2.75,
+  "track": 1.5,
+  "wheelRadius": 0.31,
+  "wheelWidth": 0.2,
+  "groundClearance": 0.16
+ },
+ "body": {
+  "belt": 0.9,
+  "noseH": 0.76,
+  "tailH": 0.9,
+  "hood": 1.1,
+  "deck": 0.12,
+  "wsRake": 0.74,
+  "rearRake": 0.16,
+  "tumble": 0.14,
+  "windows": {
+   "from": 0.05,
+   "to": 0.95,
+   "panes": 3
+  },
+  "rack": true
+ },
+ "shape": {
+  "crown": 0.02,
+  "lamp": {
+   "h": [
+    0.45,
+    0.95
+   ],
+   "w": 1.2
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 34,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1450,
+  "powerKW": 85,
+  "maxSpeedKmh": 190,
+  "accel0to100": 12,
+  "brakeDecel": 8,
+  "comHeight": 0.56,
+  "suspension": {
+   "stiffness": 37700,
+   "damping": 3393,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#c9ccce",
+  "#1d1f22",
+  "#2f5d9a",
+  "#6b5a3c",
+  "#e8e6e0",
+  "#3d6b45"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "alcor-risco",
+ "make": "Toyota",
+ "model": "RAV4 (XA20)",
+ "archetype": "suv",
+ "era": [
+  2000,
+  2005
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 6,
+ "dims": {
+  "length": 4.15,
+  "width": 1.78,
+  "height": 1.66,
+  "wheelbase": 2.56,
+  "track": 1.52,
+  "wheelRadius": 0.34,
+  "wheelWidth": 0.21,
+  "groundClearance": 0.2
+ },
+ "body": {
+  "belt": 0.96,
+  "noseH": 0.86,
+  "tailH": 0.96,
+  "hood": 0.88,
+  "deck": 0.1,
+  "wsRake": 0.62,
+  "rearRake": 0.2,
+  "tumble": 0.11,
+  "windows": {
+   "from": 0.05,
+   "to": 0.95,
+   "panes": 2
+  }
+ },
+ "shape": {
+  "flare": 0.035,
+  "crown": 0.02,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 1.1
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 35,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1400,
+  "powerKW": 85,
+  "maxSpeedKmh": 170,
+  "accel0to100": 12.2,
+  "brakeDecel": 8,
+  "comHeight": 0.64,
+  "suspension": {
+   "stiffness": 33800,
+   "damping": 3042,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#e8e6e0",
+  "#b8262b",
+  "#2f5d9a",
+  "#d9c34a",
+  "#1d1f22",
+  "#9aa1a6"
+ ]
+}

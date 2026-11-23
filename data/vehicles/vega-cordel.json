@@ -1,0 +1,86 @@
+{
+ "id": "vega-cordel",
+ "make": "SEAT",
+ "model": "Ibiza (6L)",
+ "archetype": "compacto",
+ "era": [
+  1999,
+  2008
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 12,
+ "dims": {
+  "length": 3.95,
+  "width": 1.69,
+  "height": 1.44,
+  "wheelbase": 2.46,
+  "track": 1.44,
+  "wheelRadius": 0.3,
+  "wheelWidth": 0.185,
+  "groundClearance": 0.16
+ },
+ "body": {
+  "belt": 0.9,
+  "noseH": 0.72,
+  "tailH": 0.9,
+  "hood": 0.88,
+  "deck": 0.22,
+  "wsRake": 0.62,
+  "rearRake": 0.34,
+  "tumble": 0.14,
+  "windows": {
+   "from": 0.05,
+   "to": 0.95,
+   "panes": 2
+  }
+ },
+ "shape": {
+  "crown": 0.015,
+  "flare": 0.015,
+  "lamp": {
+   "h": [
+    0.45,
+    0.95
+   ],
+   "w": 1.15
+  },
+  "tail": {
+   "h": [
+    0.4,
+    0.95
+   ],
+   "w": 0.75
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 36,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1070,
+  "powerKW": 74,
+  "maxSpeedKmh": 185,
+  "accel0to100": 10.9,
+  "brakeDecel": 8,
+  "comHeight": 0.52,
+  "suspension": {
+   "stiffness": 27300,
+   "damping": 2457,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#c9ccce",
+  "#2f5d9a",
+  "#1d1f22",
+  "#8a1d24",
+  "#f1efe6",
+  "#5c6f80",
+  "#3d6b45"
+ ]
+}

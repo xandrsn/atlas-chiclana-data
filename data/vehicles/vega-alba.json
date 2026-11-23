@@ -1,0 +1,85 @@
+{
+ "id": "vega-alba",
+ "make": "Opel",
+ "model": "Corsa C",
+ "archetype": "compacto",
+ "era": [
+  2000,
+  2006
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 9,
+ "dims": {
+  "length": 3.82,
+  "width": 1.65,
+  "height": 1.44,
+  "wheelbase": 2.49,
+  "track": 1.42,
+  "wheelRadius": 0.29,
+  "wheelWidth": 0.18,
+  "groundClearance": 0.16
+ },
+ "body": {
+  "belt": 0.9,
+  "noseH": 0.72,
+  "tailH": 0.92,
+  "hood": 0.82,
+  "deck": 0.2,
+  "wsRake": 0.62,
+  "rearRake": 0.36,
+  "tumble": 0.14,
+  "windows": {
+   "from": 0.05,
+   "to": 0.95,
+   "panes": 2
+  }
+ },
+ "shape": {
+  "crown": 0.015,
+  "flare": 0.01,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 1.05
+  },
+  "tail": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 0.8
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 36,
+  "steerSpeedFalloff": 0.55,
+  "mass": 980,
+  "powerKW": 55,
+  "maxSpeedKmh": 165,
+  "accel0to100": 13.9,
+  "brakeDecel": 8,
+  "comHeight": 0.51,
+  "suspension": {
+   "stiffness": 24960,
+   "damping": 2246,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#e8e6e0",
+  "#b8262b",
+  "#2a2a2c",
+  "#9aa1a6",
+  "#d9c34a",
+  "#20324f"
+ ]
+}

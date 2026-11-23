@@ -1,0 +1,93 @@
+{
+ "id": "tordo-socorro",
+ "make": "Mercedes-Benz",
+ "model": "Sprinter (ambulancia)",
+ "archetype": "ambulancia",
+ "era": [
+  1996,
+  2006
+ ],
+ "kind": "car",
+ "seats": 4,
+ "spawnWeight": 1,
+ "dims": {
+  "length": 5.28,
+  "width": 1.9,
+  "height": 2.6,
+  "wheelbase": 3,
+  "track": 1.6,
+  "wheelRadius": 0.34,
+  "wheelWidth": 0.2,
+  "groundClearance": 0.2
+ },
+ "body": {
+  "belt": 1,
+  "noseH": 0.88,
+  "tailH": 1,
+  "hood": 0.6,
+  "deck": 2.9,
+  "wsRake": 0.5,
+  "rearRake": 0.05,
+  "tumble": 0.05,
+  "roof": 1.8,
+  "windows": {
+   "from": 0.4,
+   "to": 0.95,
+   "panes": 1
+  },
+  "cargo": {
+   "length": 2.9,
+   "floor": 0.35,
+   "height": 2.6,
+   "color": "#f4f4ee"
+  },
+  "stripe": {
+   "color": "#c8202a",
+   "y0": 0.9,
+   "y1": 1.15
+  },
+  "roofBox": {
+   "w": 0.9,
+   "h": 0.1,
+   "d": 0.22,
+   "colors": [
+    "#2b5cff",
+    "#2b5cff"
+   ]
+  }
+ },
+ "shape": {
+  "rearGlass": false,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 1
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "rwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 34,
+  "steerSpeedFalloff": 0.55,
+  "mass": 2600,
+  "powerKW": 80,
+  "maxSpeedKmh": 145,
+  "accel0to100": 20,
+  "brakeDecel": 8,
+  "comHeight": 0.9,
+  "suspension": {
+   "stiffness": 67600,
+   "damping": 6084,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#f4f4ee"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "id": "garza-milano",
+ "make": "Garza",
+ "model": "Milano",
+ "archetype": "helicoptero",
+ "era": [
+  1996,
+  2006
+ ],
+ "kind": "heli",
+ "seats": 8,
+ "spawnWeight": 0,
+ "dims": {
+  "length": 12.6,
+  "width": 2.4,
+  "height": 3.5,
+  "rotor": 11,
+  "skidTrack": 2.3
+ },
+ "body": {
+  "cab": [
+   [
+    -2.2,
+    0.55
+   ],
+   [
+    1.6,
+    0.55
+   ],
+   [
+    2.5,
+    1
+   ],
+   [
+    2.45,
+    1.75
+   ],
+   [
+    1.6,
+    2.45
+   ],
+   [
+    -1.9,
+    2.45
+   ],
+   [
+    -2.4,
+    1.7
+   ]
+  ],
+  "glass": [
+   2,
+   3
+  ],
+  "mast": 2.98,
+  "boom": -7.3,
+  "blades": 4,
+  "stripe": "#f2f2ee",
+  "door": true
+ },
+ "flight": {
+  "maxSpeedKmh": 300,
+  "accel": 16,
+  "climb": 14,
+  "yawRate": 1.6,
+  "ceiling": 320
+ },
+ "palette": [
+  "#1f4a8c",
+  "#c42d2d",
+  "#eeeeea",
+  "#2e3a2e",
+  "#e2a41c"
+ ]
+}

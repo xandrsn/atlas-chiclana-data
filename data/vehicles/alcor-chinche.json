@@ -1,0 +1,84 @@
+{
+ "id": "alcor-chinche",
+ "make": "SEAT",
+ "model": "600",
+ "archetype": "clasico",
+ "era": [
+  1957,
+  1973
+ ],
+ "kind": "car",
+ "seats": 4,
+ "spawnWeight": 2,
+ "dims": {
+  "length": 3.3,
+  "width": 1.38,
+  "height": 1.4,
+  "wheelbase": 2,
+  "track": 1.15,
+  "wheelRadius": 0.23,
+  "wheelWidth": 0.14,
+  "groundClearance": 0.15
+ },
+ "body": {
+  "belt": 0.8,
+  "noseH": 0.72,
+  "tailH": 0.78,
+  "hood": 0.55,
+  "deck": 0.45,
+  "wsRake": 0.52,
+  "rearRake": 0.6,
+  "tumble": 0.14,
+  "windows": {
+   "from": 0.1,
+   "to": 0.9,
+   "panes": 2
+  }
+ },
+ "shape": {
+  "crown": 0.05,
+  "flare": 0.02,
+  "lamp": {
+   "h": [
+    0.45,
+    0.85
+   ],
+   "w": 0.5
+  },
+  "tail": {
+   "h": [
+    0.45,
+    0.85
+   ],
+   "w": 0.45
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "rwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 38,
+  "steerSpeedFalloff": 0.55,
+  "mass": 600,
+  "powerKW": 19,
+  "maxSpeedKmh": 110,
+  "accel0to100": 38,
+  "brakeDecel": 8,
+  "comHeight": 0.5,
+  "suspension": {
+   "stiffness": 15600,
+   "damping": 1404,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#d9c9a0",
+  "#7a9a8e",
+  "#9b2d2d",
+  "#e2d5a6",
+  "#2f4f7a"
+ ]
+}

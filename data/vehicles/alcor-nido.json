@@ -1,0 +1,79 @@
+{
+ "id": "alcor-nido",
+ "make": "Renault",
+ "model": "Espace III",
+ "archetype": "monovolumen",
+ "era": [
+  1997,
+  2002
+ ],
+ "kind": "car",
+ "seats": 7,
+ "spawnWeight": 6,
+ "dims": {
+  "length": 4.52,
+  "width": 1.8,
+  "height": 1.69,
+  "wheelbase": 2.8,
+  "track": 1.54,
+  "wheelRadius": 0.32,
+  "wheelWidth": 0.2,
+  "groundClearance": 0.16
+ },
+ "body": {
+  "belt": 0.95,
+  "noseH": 0.78,
+  "tailH": 0.95,
+  "hood": 0.85,
+  "deck": 0.1,
+  "wsRake": 1,
+  "rearRake": 0.06,
+  "tumble": 0.12,
+  "windows": {
+   "from": 0.03,
+   "to": 0.96,
+   "panes": 3
+  }
+ },
+ "shape": {
+  "wsCurve": 0.75,
+  "crown": 0.03,
+  "flare": 0.01,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 1.1
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 35,
+  "steerSpeedFalloff": 0.55,
+  "comHeight": 0.62,
+  "mass": 1600,
+  "powerKW": 85,
+  "maxSpeedKmh": 178,
+  "accel0to100": 14,
+  "brakeDecel": 8,
+  "suspension": {
+   "stiffness": 28000,
+   "damping": 2700,
+   "travel": 0.17,
+   "rollFactor": 0.85
+  }
+ },
+ "palette": [
+  "#3a4a63",
+  "#9aa1a6",
+  "#6b2a35",
+  "#d9d6cc",
+  "#2f5a52",
+  "#1d1f22"
+ ]
+}

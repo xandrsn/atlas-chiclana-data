@@ -1,0 +1,55 @@
+{
+ "id": "lince-urbe-125",
+ "make": "Lince",
+ "model": "Urbe 125",
+ "archetype": "scooter",
+ "era": [
+  1998,
+  2008
+ ],
+ "kind": "bike",
+ "seats": 2,
+ "spawnWeight": 5,
+ "dims": {
+  "length": 1.9,
+  "width": 0.72,
+  "height": 1.18,
+  "wheelbase": 1.32,
+  "track": 0,
+  "wheelRadius": 0.24,
+  "wheelWidth": 0.12,
+  "groundClearance": 0.13
+ },
+ "body": {
+  "scooter": true
+ },
+ "handling": {
+  "gears": 1,
+  "drive": "rwd",
+  "grip": 0.9,
+  "rearGrip": 0.88,
+  "driftFactor": 0.2,
+  "steerMaxDeg": 32,
+  "steerSpeedFalloff": 0.6,
+  "mass": 150,
+  "powerKW": 9,
+  "maxSpeedKmh": 105,
+  "accel0to100": 12,
+  "brakeDecel": 8,
+  "comHeight": 0.5,
+  "suspension": {
+   "stiffness": 11100,
+   "damping": 999,
+   "travel": 0.09,
+   "rollFactor": 0
+  }
+ },
+ "palette": [
+  "#e8e6e0",
+  "#1d1f22",
+  "#b8262b",
+  "#9ac4d8",
+  "#6b6f75",
+  "#f2c14e"
+ ]
+}

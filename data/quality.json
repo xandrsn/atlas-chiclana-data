@@ -1,0 +1,9 @@
+{
+  "default": "medio",
+  "presets": {
+    "bajo":  { "label": "Bajo",  "pixelRatio": 0.75, "maxPixelRatio": 1,    "antialias": false, "drawDist": 450, "lodDist": 220, "treeDist": 160, "maxCells": 24, "applyPerFrame": 1, "applyBudgetMs": 2, "peds": 12 },
+    "medio": { "label": "Medio", "pixelRatio": 1,    "maxPixelRatio": 1,    "antialias": false, "drawDist": 700, "lodDist": 330, "treeDist": 260, "maxCells": 40, "applyPerFrame": 1, "applyBudgetMs": 3, "peds": 28 },
+    "alto":  { "label": "Alto",  "pixelRatio": 1,    "maxPixelRatio": 1.5,  "antialias": true,  "drawDist": 1000, "lodDist": 450, "treeDist": 380, "maxCells": 64, "applyPerFrame": 2, "applyBudgetMs": 4, "peds": 40 },
+    "ultra": { "label": "Ultra (mucha RAM)", "pixelRatio": 1, "maxPixelRatio": 1.5, "antialias": true, "drawDist": 1600, "lodDist": 800, "treeDist": 650, "maxCells": 160, "applyPerFrame": 3, "applyBudgetMs": 5, "peds": 60 }
+  }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "brezo-urbano-12",
+ "make": "Brezo",
+ "model": "Urbano 12",
+ "archetype": "autobus",
+ "era": [
+  1992,
+  2005
+ ],
+ "kind": "car",
+ "seats": 30,
+ "spawnWeight": 2,
+ "dims": {
+  "length": 12,
+  "width": 2.55,
+  "height": 3.05,
+  "wheelbase": 5.9,
+  "track": 2.1,
+  "wheelRadius": 0.5,
+  "wheelWidth": 0.3,
+  "groundClearance": 0.3
+ },
+ "body": {
+  "belt": 1.18,
+  "noseH": 1.12,
+  "tailH": 1.18,
+  "hood": 0.08,
+  "deck": 0.08,
+  "wsRake": 0.12,
+  "rearRake": 0.06,
+  "tumble": 0.04,
+  "windows": {
+   "from": 0.02,
+   "to": 0.9,
+   "panes": 7
+  }
+ },
+ "handling": {
+  "gears": 4,
+  "drive": "rwd",
+  "grip": 0.85,
+  "rearGrip": 0.85,
+  "driftFactor": 0.1,
+  "steerMaxDeg": 42,
+  "steerSpeedFalloff": 0.3,
+  "mass": 11500,
+  "powerKW": 180,
+  "maxSpeedKmh": 115,
+  "accel0to100": 40,
+  "brakeDecel": 5.5,
+  "comHeight": 1.1,
+  "suspension": {
+   "stiffness": 300000,
+   "damping": 30000,
+   "travel": 0.14,
+   "rollFactor": 0.8
+  }
+ },
+ "palette": [
+  "#d8282f",
+  "#2a6fb5",
+  "#e7b21f",
+  "#3a9a52"
+ ]
+}

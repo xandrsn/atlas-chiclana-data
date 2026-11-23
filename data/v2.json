@@ -1,0 +1,99 @@
+{
+  "map": "chiclana",
+  "cell": 256,
+  "slice": {
+    "x": -3450,
+    "z": -1971,
+    "size": 2048,
+    "note": "centro ~Plaza Mayor de Chiclana; 8x8 celdas de 256 m (el corte vertical de 1 km2 mas margen para cruzar celdas)"
+  },
+  "bake": {
+    "vexag": 1.875,
+    "groundStep": 4,
+    "groundStepLod1": 16,
+    "floorH": 3.4,
+    "roadLift": 0.22,
+    "roadMaxSeg": 4,
+    "lod1MinArea": 120,
+    "sun": [-0.45, 0.8, -0.4],
+    "ambient": 0.58,
+    "walls": [[236, 232, 220], [242, 238, 228], [228, 218, 196], [222, 206, 170], [214, 196, 160], [232, 224, 206], [205, 190, 168], [240, 228, 200]],
+    "plinth": [[150, 120, 90], [120, 110, 100], [170, 150, 120]],
+    "water": [52, 90, 112],
+    "roads": {
+      "motorway": [70, 72, 76],
+      "trunk": [74, 76, 80],
+      "primary": [80, 82, 86],
+      "secondary": [86, 88, 92],
+      "tertiary": [92, 92, 94],
+      "residential": [100, 98, 98],
+      "pedestrian": [176, 160, 136],
+      "footway": [170, 156, 132],
+      "path": [160, 140, 104],
+      "track": [150, 128, 96],
+      "default": [96, 96, 98]
+    },
+    "tree": {
+      "leaf": [[70, 104, 52], [62, 96, 48], [84, 112, 56]],
+      "trunk": [96, 74, 52],
+      "blob": [52, 58, 40]
+    },
+    "land": {
+      "0": [[156, 150, 100], "field"],
+      "1": [[132, 136, 88], "field"],
+      "2": [[96, 116, 68], "forest"],
+      "3": [[222, 206, 200], "salina"],
+      "4": [[226, 208, 168], "sand"],
+      "5": [[108, 146, 72], "grass"],
+      "6": [[172, 142, 104], "dirt"],
+      "7": [[52, 90, 112], "water"],
+      "8": [[178, 168, 150], "paving"],
+      "note": "por clase de landclass.bin: [albedo, tipo de superficie]; 0 campo, 1 matorral, 2 pinar, 3 salina/marisma, 4 arena, 5 cesped, 6 tierra, 7 agua, 8 urbano"
+    },
+    "roadKind": {
+      "pedestrian": "paving",
+      "footway": "paving",
+      "living_street": "paving",
+      "steps": "paving",
+      "cycleway": "asphalt",
+      "path": "dirt",
+      "track": "dirt"
+    },
+    "dashMinWidth": 7,
+    "dash": [236, 232, 214],
+    "parapet": 0.9,
+    "lampPost": [64, 66, 70],
+    "lampHead": [214, 212, 200],
+    "night": {
+      "note": "paleta nocturna horneada: luna (direccion, ambiente, tinte por canal) + farolas (color 0..255, radio m, ganancia, cada cuantos m, altura, en que calles)",
+      "moon": [0.35, 0.85, 0.4],
+      "ambient": 0.45,
+      "tint": [0.3, 0.34, 0.52],
+      "lampColor": [255, 196, 120],
+      "lampRadius": 15,
+      "lampGain": 1.15,
+      "lampSpacing": 28,
+      "lampHeight": 5.5,
+      "lampRoads": ["primary", "secondary", "secondary_link", "tertiary", "tertiary_link", "residential", "living_street", "unclassified", "pedestrian", "trunk"]
+    }
+  },
+  "physicsHz": 60,
+  "car": {
+    "accel": 9,
+    "brake": 18,
+    "maxSpeed": 34,
+    "reverse": 8,
+    "turn": 1.9,
+    "drag": 0.2,
+    "grip": 6
+  },
+  "walker": {
+    "speed": 4.2,
+    "run": 8
+  },
+  "camera": {
+    "fov": 62,
+    "chaseDist": 9,
+    "chaseHeight": 3.6
+  }
+}

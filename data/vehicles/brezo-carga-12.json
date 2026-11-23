@@ -1,0 +1,73 @@
+{
+ "id": "brezo-carga-12",
+ "make": "Brezo",
+ "model": "Carga 12",
+ "archetype": "camion",
+ "era": [
+  1990,
+  2005
+ ],
+ "kind": "car",
+ "seats": 2,
+ "spawnWeight": 2,
+ "dims": {
+  "length": 8.2,
+  "width": 2.45,
+  "height": 3.4,
+  "wheelbase": 4.6,
+  "track": 2,
+  "wheelRadius": 0.5,
+  "wheelWidth": 0.32,
+  "groundClearance": 0.35
+ },
+ "body": {
+  "belt": 1.45,
+  "noseH": 1.4,
+  "tailH": 1.3,
+  "hood": 0.1,
+  "deck": 6,
+  "wsRake": 0.18,
+  "rearRake": 0.05,
+  "tumble": 0.06,
+  "roof": 2.9,
+  "windows": {
+   "from": 0.55,
+   "to": 0.95,
+   "panes": 1
+  },
+  "cargo": {
+   "length": 5.9,
+   "floor": 1.15,
+   "height": 3.4,
+   "color": "#e8e7e1"
+  }
+ },
+ "handling": {
+  "gears": 6,
+  "drive": "rwd",
+  "grip": 0.85,
+  "rearGrip": 0.85,
+  "driftFactor": 0.1,
+  "steerMaxDeg": 40,
+  "steerSpeedFalloff": 0.3,
+  "mass": 9000,
+  "powerKW": 160,
+  "maxSpeedKmh": 125,
+  "accel0to100": 35,
+  "brakeDecel": 5,
+  "comHeight": 1.3,
+  "suspension": {
+   "stiffness": 250000,
+   "damping": 25000,
+   "travel": 0.15,
+   "rollFactor": 0.85
+  }
+ },
+ "palette": [
+  "#1f4a8c",
+  "#c82a24",
+  "#e9e8e2",
+  "#2f6b3a",
+  "#e2a41c"
+ ]
+}

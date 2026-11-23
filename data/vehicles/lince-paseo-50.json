@@ -1,0 +1,55 @@
+{
+ "id": "lince-paseo-50",
+ "make": "Lince",
+ "model": "Paseo 50",
+ "archetype": "scooter",
+ "era": [
+  1995,
+  2006
+ ],
+ "kind": "bike",
+ "seats": 2,
+ "spawnWeight": 5,
+ "dims": {
+  "length": 1.75,
+  "width": 0.68,
+  "height": 1.12,
+  "wheelbase": 1.22,
+  "track": 0,
+  "wheelRadius": 0.22,
+  "wheelWidth": 0.11,
+  "groundClearance": 0.12
+ },
+ "body": {
+  "scooter": true
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "rwd",
+  "grip": 0.9,
+  "rearGrip": 0.88,
+  "driftFactor": 0.2,
+  "steerMaxDeg": 32,
+  "steerSpeedFalloff": 0.6,
+  "comHeight": 0.5,
+  "mass": 95,
+  "powerKW": 3,
+  "maxSpeedKmh": 95,
+  "accel0to100": 20,
+  "brakeDecel": 7,
+  "suspension": {
+   "stiffness": 7000,
+   "damping": 700,
+   "travel": 0.09,
+   "rollFactor": 0
+  }
+ },
+ "palette": [
+  "#e8e6e0",
+  "#9ac4d8",
+  "#d8282f",
+  "#f2c14e",
+  "#2f2f33",
+  "#7cc47a"
+ ]
+}

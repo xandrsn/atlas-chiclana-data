@@ -1,0 +1,58 @@
+{
+  "note": "Única fuente de controles de v2 (lo lee public/v2/input/keys.js). Teclas = KeyboardEvent.code. Gamepad = mapeo estándar (botones 0 A, 1 B, 2 X, 3 Y, 4 LB, 5 RB, 6 LT, 7 RT, 9 Start; ejes 0/1 stick izq., 2/3 stick der.).",
+  "keys": {
+    "forward": ["KeyW", "ArrowUp"],
+    "back": ["KeyS", "ArrowDown"],
+    "left": ["KeyA", "ArrowLeft"],
+    "right": ["KeyD", "ArrowRight"],
+    "run": ["ShiftLeft", "ShiftRight"],
+    "jump": ["Space"],
+    "enter": ["KeyF"],
+    "camera": ["KeyV"],
+    "flip": ["KeyR"],
+    "bladeUp": ["KeyE"],
+    "bladeDown": ["KeyQ"],
+    "pause": ["Escape", "KeyP"]
+  },
+  "labels": {
+    "forward": "Avanzar / acelerar",
+    "back": "Retroceder / frenar y marcha atrás",
+    "left": "Izquierda / girar",
+    "right": "Derecha / girar",
+    "run": "Correr (a pie) · bajar (helicóptero)",
+    "jump": "Saltar (a pie) · freno de mano (en vehículo) · subir (helicóptero)",
+    "enter": "Entrar / salir del vehículo (helicóptero: solo posado)",
+    "camera": "Cámara aérea (pruebas)",
+    "flip": "Volver a poner el vehículo sobre sus ruedas (si ha volcado)",
+    "bladeUp": "Topadora: subir la cuchilla",
+    "bladeDown": "Topadora: bajar la cuchilla",
+    "pause": "Pausa y soltar el ratón"
+  },
+  "mouse": { "sensitivity": 0.0022, "invertY": false, "wheelZoom": 0.12 },
+  "gamepad": {
+    "deadzone": 0.18,
+    "lookSpeed": 2.6,
+    "buttons": { "jump": 0, "run": 1, "enter": 3, "pause": 9, "brake": 6, "throttle": 7 }
+  },
+  "camera": {
+    "pitch": 0.32, "minPitch": -0.35, "maxPitch": 1.25,
+    "distFoot": 4.2, "distCar": 9, "zoomMin": 0.55, "zoomMax": 2.2,
+    "pivotFoot": 1.55, "pivotCar": 1.5,
+    "follow": 14, "lookSmoothing": 0, "zoomSmoothing": 10,
+    "recenterDelay": 2.5, "recenterRate": 2.2, "recenterMinSpeed": 2,
+    "groundMargin": 0.45, "wallMargin": 0.5, "pullIn": 25, "pushOut": 3
+  },
+  "player": {
+    "style": "chaval", "seed": 4242, "top": "#2a8c82",
+    "accel": 12, "decel": 18, "turnRate": 22, "leanMax": 0.06, "jumpSpeed": 5.2, "gravity": 18,
+    "enterRadius": 4.5, "exitMaxSpeed": 6, "car": "marelo-sirio", "carColor": "#8a1d24"
+  },
+  "cheats": [
+    { "code": "SOLAZO", "hour": 13, "label": "pone el mediodía" },
+    { "code": "LUNERA", "hour": 23, "label": "pone la noche" },
+    { "code": "CARRUSEL", "vehicle": "next", "label": "cambia tu coche al siguiente modelo del catálogo (también tecla N)" },
+    { "code": "MOSCARDON", "vehicle": "heli", "label": "trae el helicóptero delante de ti" },
+    { "code": "TOPADORA", "vehicle": "dozer", "label": "trae la supertopadora Hornaza Derribo Titan delante de ti" },
+    { "code": "HHH", "vehicle": "heli", "label": "trae el helicóptero delante de ti (atajo)" }
+  ]
+}

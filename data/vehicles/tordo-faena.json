@@ -1,0 +1,77 @@
+{
+ "id": "tordo-faena",
+ "make": "Citroën",
+ "model": "Berlingo",
+ "archetype": "furgoneta",
+ "era": [
+  1996,
+  2008
+ ],
+ "kind": "car",
+ "seats": 2,
+ "spawnWeight": 7,
+ "dims": {
+  "length": 4.11,
+  "width": 1.72,
+  "height": 1.8,
+  "wheelbase": 2.69,
+  "track": 1.46,
+  "wheelRadius": 0.3,
+  "wheelWidth": 0.19,
+  "groundClearance": 0.19
+ },
+ "body": {
+  "belt": 0.95,
+  "noseH": 0.85,
+  "tailH": 0.95,
+  "hood": 0.7,
+  "deck": 0,
+  "wsRake": 0.55,
+  "rearRake": 0.02,
+  "tumble": 0.05,
+  "windows": {
+   "from": 0.74,
+   "to": 0.97,
+   "panes": 1
+  }
+ },
+ "shape": {
+  "rearGlass": false,
+  "crown": 0.02,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 1.1
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 0.9,
+  "rearGrip": 0.85,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 36,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1250,
+  "powerKW": 51,
+  "maxSpeedKmh": 148,
+  "accel0to100": 20,
+  "brakeDecel": 7.2,
+  "comHeight": 0.75,
+  "suspension": {
+   "stiffness": 36000,
+   "damping": 3200,
+   "travel": 0.2,
+   "rollFactor": 0.9
+  }
+ },
+ "palette": [
+  "#f2f1ea",
+  "#e6e2d2",
+  "#2e4f8a",
+  "#9c1f22",
+  "#5d6a5e"
+ ]
+}

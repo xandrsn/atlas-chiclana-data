@@ -1,0 +1,66 @@
+{
+ "id": "gavilan-rayo",
+ "make": "Gavilán",
+ "model": "Rayo",
+ "archetype": "deportivo",
+ "era": [
+  1997,
+  2004
+ ],
+ "kind": "car",
+ "seats": 2,
+ "spawnWeight": 2,
+ "dims": {
+  "length": 4.25,
+  "width": 1.76,
+  "height": 1.22,
+  "wheelbase": 2.45,
+  "track": 1.5,
+  "wheelRadius": 0.31,
+  "wheelWidth": 0.23,
+  "groundClearance": 0.12
+ },
+ "body": {
+  "belt": 0.74,
+  "noseH": 0.58,
+  "tailH": 0.73,
+  "hood": 1.3,
+  "deck": 0.38,
+  "wsRake": 0.82,
+  "rearRake": 0.85,
+  "tumble": 0.18,
+  "windows": {
+   "from": 0.1,
+   "to": 0.92,
+   "panes": 1
+  }
+ },
+ "handling": {
+  "gears": 6,
+  "drive": "rwd",
+  "grip": 1.15,
+  "rearGrip": 1.05,
+  "driftFactor": 0.55,
+  "steerMaxDeg": 32,
+  "steerSpeedFalloff": 0.45,
+  "mass": 1250,
+  "powerKW": 165,
+  "maxSpeedKmh": 270,
+  "accel0to100": 6.2,
+  "brakeDecel": 10.5,
+  "comHeight": 0.42,
+  "suspension": {
+   "stiffness": 48000,
+   "damping": 4200,
+   "travel": 0.11,
+   "rollFactor": 0.35
+  }
+ },
+ "palette": [
+  "#d4131c",
+  "#f2c418",
+  "#121314",
+  "#e9e9e9",
+  "#1f4fb8"
+ ]
+}

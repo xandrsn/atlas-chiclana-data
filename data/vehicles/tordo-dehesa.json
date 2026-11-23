@@ -1,0 +1,77 @@
+{
+ "id": "tordo-dehesa",
+ "make": "Mitsubishi",
+ "model": "L200 (K74)",
+ "archetype": "pickup",
+ "era": [
+  2001,
+  2006
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 2,
+ "dims": {
+  "length": 4.95,
+  "width": 1.775,
+  "height": 1.76,
+  "wheelbase": 3,
+  "track": 1.47,
+  "wheelRadius": 0.34,
+  "wheelWidth": 0.22,
+  "groundClearance": 0.25
+ },
+ "body": {
+  "belt": 1.02,
+  "noseH": 0.94,
+  "tailH": 1.02,
+  "hood": 1.15,
+  "deck": 1.55,
+  "wsRake": 0.45,
+  "rearRake": 0.08,
+  "tumble": 0.08,
+  "bed": true,
+  "windows": {
+   "from": 0.08,
+   "to": 0.95,
+   "panes": 2
+  }
+ },
+ "shape": {
+  "flare": 0.03,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 1
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "awd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 33,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1750,
+  "powerKW": 74,
+  "maxSpeedKmh": 148,
+  "accel0to100": 18,
+  "brakeDecel": 8,
+  "comHeight": 0.7,
+  "suspension": {
+   "stiffness": 49400,
+   "damping": 4446,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#e9e8e2",
+  "#1d1f22",
+  "#5d6a5e",
+  "#c82a24",
+  "#2e4f8a"
+ ]
+}

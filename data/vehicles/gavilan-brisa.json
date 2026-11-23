@@ -1,0 +1,69 @@
+{
+ "id": "gavilan-brisa",
+ "make": "Gavilán",
+ "model": "Brisa",
+ "archetype": "cabrio",
+ "era": [
+  1996,
+  2006
+ ],
+ "kind": "car",
+ "seats": 2,
+ "spawnWeight": 3,
+ "dims": {
+  "length": 3.95,
+  "width": 1.7,
+  "height": 1.25,
+  "wheelbase": 2.3,
+  "track": 1.45,
+  "wheelRadius": 0.3,
+  "wheelWidth": 0.2,
+  "groundClearance": 0.12
+ },
+ "body": {
+  "belt": 0.78,
+  "noseH": 0.6,
+  "tailH": 0.76,
+  "hood": 1.25,
+  "deck": 0.75,
+  "wsRake": 0.45,
+  "rearRake": 0.3,
+  "tumble": 0.1,
+  "open": true,
+  "roof": 1.18,
+  "windows": {
+   "from": 0.1,
+   "to": 0.9,
+   "panes": 1
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "rwd",
+  "grip": 1.05,
+  "rearGrip": 0.95,
+  "driftFactor": 0.45,
+  "steerMaxDeg": 36,
+  "steerSpeedFalloff": 0.55,
+  "comHeight": 0.45,
+  "mass": 1050,
+  "powerKW": 105,
+  "maxSpeedKmh": 235,
+  "accel0to100": 8.2,
+  "brakeDecel": 9,
+  "suspension": {
+   "stiffness": 32000,
+   "damping": 2800,
+   "travel": 0.13,
+   "rollFactor": 0.55
+  }
+ },
+ "palette": [
+  "#c41e2a",
+  "#f2c418",
+  "#1f4fb8",
+  "#e9e9e4",
+  "#1c1d20",
+  "#2f7a5a"
+ ]
+}

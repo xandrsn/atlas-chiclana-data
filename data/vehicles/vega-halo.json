@@ -1,0 +1,85 @@
+{
+ "id": "vega-halo",
+ "make": "Citroën",
+ "model": "Xsara Picasso",
+ "archetype": "monovolumen",
+ "era": [
+  2000,
+  2008
+ ],
+ "kind": "car",
+ "seats": 7,
+ "spawnWeight": 4,
+ "dims": {
+  "length": 4.27,
+  "width": 1.75,
+  "height": 1.64,
+  "wheelbase": 2.76,
+  "track": 1.49,
+  "wheelRadius": 0.31,
+  "wheelWidth": 0.19,
+  "groundClearance": 0.17
+ },
+ "body": {
+  "belt": 0.95,
+  "noseH": 0.78,
+  "tailH": 0.95,
+  "hood": 0.78,
+  "deck": 0.08,
+  "wsRake": 0.85,
+  "rearRake": 0.12,
+  "tumble": 0.12,
+  "windows": {
+   "from": 0.05,
+   "to": 0.95,
+   "panes": 3
+  }
+ },
+ "shape": {
+  "wsCurve": 0.8,
+  "crown": 0.02,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 1.15
+  },
+  "tail": {
+   "h": [
+    0.4,
+    0.95
+   ],
+   "w": 0.7
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 34,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1250,
+  "powerKW": 66,
+  "maxSpeedKmh": 172,
+  "accel0to100": 13.9,
+  "brakeDecel": 8,
+  "comHeight": 0.62,
+  "suspension": {
+   "stiffness": 37700,
+   "damping": 3393,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#c9ccce",
+  "#2f5d9a",
+  "#e8e6e0",
+  "#6b5a3c",
+  "#8a1d24",
+  "#5c6f80"
+ ]
+}

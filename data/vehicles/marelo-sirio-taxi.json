@@ -1,0 +1,87 @@
+{
+ "id": "marelo-sirio-taxi",
+ "make": "Mercedes-Benz",
+ "model": "E 220 CDI (W210, taxi)",
+ "archetype": "taxi",
+ "era": [
+  1996,
+  2002
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 5,
+ "dims": {
+  "length": 4.795,
+  "width": 1.799,
+  "height": 1.431,
+  "wheelbase": 2.833,
+  "track": 1.55,
+  "wheelRadius": 0.32,
+  "wheelWidth": 0.19,
+  "groundClearance": 0.17
+ },
+ "body": {
+  "belt": 0.9,
+  "noseH": 0.78,
+  "tailH": 0.94,
+  "hood": 1.22,
+  "deck": 0.95,
+  "wsRake": 0.78,
+  "rearRake": 0.7,
+  "tumble": 0.15,
+  "windows": {
+   "from": 0.06,
+   "to": 0.94,
+   "panes": 2
+  },
+  "stripe": {
+   "color": "#1f7a4d",
+   "y0": 0.5,
+   "y1": 0.6
+  },
+  "roofBox": {
+   "w": 0.42,
+   "h": 0.12,
+   "d": 0.2,
+   "colors": [
+    "#f2efe2"
+   ]
+  }
+ },
+ "shape": {
+  "boot": 0.5,
+  "crown": 0.02,
+  "flare": 0.01,
+  "lamp": {
+   "h": [
+    0.45,
+    0.95
+   ],
+   "w": 1.25
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 35,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1560,
+  "powerKW": 92,
+  "maxSpeedKmh": 208,
+  "accel0to100": 11.2,
+  "brakeDecel": 8.5,
+  "comHeight": 0.52,
+  "suspension": {
+   "stiffness": 30000,
+   "damping": 2800,
+   "travel": 0.17,
+   "rollFactor": 0.65
+  }
+ },
+ "palette": [
+  "#f4f4ee"
+ ]
+}

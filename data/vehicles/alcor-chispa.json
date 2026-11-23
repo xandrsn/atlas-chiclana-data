@@ -1,0 +1,86 @@
+{
+ "id": "alcor-chispa",
+ "make": "Fiat",
+ "model": "Seicento",
+ "archetype": "utilitario",
+ "era": [
+  1998,
+  2008
+ ],
+ "kind": "car",
+ "seats": 4,
+ "spawnWeight": 10,
+ "dims": {
+  "length": 3.34,
+  "width": 1.51,
+  "height": 1.43,
+  "wheelbase": 2.2,
+  "track": 1.31,
+  "wheelRadius": 0.26,
+  "wheelWidth": 0.16,
+  "groundClearance": 0.15
+ },
+ "body": {
+  "belt": 0.85,
+  "noseH": 0.7,
+  "tailH": 0.85,
+  "hood": 0.62,
+  "deck": 0.15,
+  "wsRake": 0.5,
+  "rearRake": 0.38,
+  "tumble": 0.13,
+  "windows": {
+   "from": 0.05,
+   "to": 0.95,
+   "panes": 2
+  }
+ },
+ "shape": {
+  "crown": 0.025,
+  "flare": 0.01,
+  "lamp": {
+   "h": [
+    0.5,
+    0.95
+   ],
+   "w": 0.9
+  },
+  "tail": {
+   "h": [
+    0.5,
+    0.9
+   ],
+   "w": 0.7
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 38,
+  "steerSpeedFalloff": 0.55,
+  "mass": 730,
+  "powerKW": 40,
+  "maxSpeedKmh": 145,
+  "accel0to100": 15.5,
+  "brakeDecel": 8,
+  "comHeight": 0.5,
+  "suspension": {
+   "stiffness": 20280,
+   "damping": 1825,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#d9c34a",
+  "#b8262b",
+  "#f1efe6",
+  "#6fa8c9",
+  "#9aa1a6",
+  "#7cc47a",
+  "#1d1f22"
+ ]
+}

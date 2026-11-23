@@ -1,0 +1,78 @@
+{
+ "id": "marelo-fulgor",
+ "make": "Volkswagen",
+ "model": "Passat B5",
+ "archetype": "berlina",
+ "era": [
+  1997,
+  2005
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 5,
+ "dims": {
+  "length": 4.675,
+  "width": 1.74,
+  "height": 1.46,
+  "wheelbase": 2.7,
+  "track": 1.5,
+  "wheelRadius": 0.31,
+  "wheelWidth": 0.2,
+  "groundClearance": 0.16
+ },
+ "body": {
+  "belt": 0.92,
+  "noseH": 0.76,
+  "tailH": 0.92,
+  "hood": 1.1,
+  "deck": 0.85,
+  "wsRake": 0.72,
+  "rearRake": 0.62,
+  "tumble": 0.15,
+  "windows": {
+   "from": 0.06,
+   "to": 0.94,
+   "panes": 2
+  }
+ },
+ "shape": {
+  "boot": 0.4,
+  "crown": 0.02,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 1.1
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "fwd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 34,
+  "steerSpeedFalloff": 0.55,
+  "mass": 1360,
+  "powerKW": 81,
+  "maxSpeedKmh": 190,
+  "accel0to100": 11.2,
+  "brakeDecel": 8,
+  "comHeight": 0.53,
+  "suspension": {
+   "stiffness": 35880,
+   "damping": 3229,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#20324f",
+  "#1d1f22",
+  "#c9ccce",
+  "#6b5a3c",
+  "#8a1d24",
+  "#e8e6e0"
+ ]
+}

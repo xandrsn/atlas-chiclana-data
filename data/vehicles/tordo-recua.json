@@ -1,0 +1,77 @@
+{
+ "id": "tordo-recua",
+ "make": "Toyota",
+ "model": "Hilux 4x2",
+ "archetype": "pickup",
+ "era": [
+  1997,
+  2005
+ ],
+ "kind": "car",
+ "seats": 2,
+ "spawnWeight": 4,
+ "dims": {
+  "length": 4.8,
+  "width": 1.69,
+  "height": 1.64,
+  "wheelbase": 2.85,
+  "track": 1.4,
+  "wheelRadius": 0.33,
+  "wheelWidth": 0.21,
+  "groundClearance": 0.24
+ },
+ "body": {
+  "belt": 1,
+  "noseH": 0.92,
+  "tailH": 1,
+  "hood": 1.05,
+  "deck": 1.9,
+  "wsRake": 0.45,
+  "rearRake": 0.05,
+  "tumble": 0.08,
+  "bed": true,
+  "windows": {
+   "from": 0.1,
+   "to": 0.95,
+   "panes": 1
+  }
+ },
+ "shape": {
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 0.9
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "rwd",
+  "grip": 0.92,
+  "rearGrip": 0.85,
+  "driftFactor": 0.4,
+  "steerMaxDeg": 33,
+  "steerSpeedFalloff": 0.55,
+  "comHeight": 0.68,
+  "mass": 1400,
+  "powerKW": 63,
+  "maxSpeedKmh": 150,
+  "accel0to100": 18,
+  "brakeDecel": 7.5,
+  "suspension": {
+   "stiffness": 30000,
+   "damping": 2600,
+   "travel": 0.2,
+   "rollFactor": 0.9
+  }
+ },
+ "palette": [
+  "#e9e8e2",
+  "#c82a24",
+  "#2e4f8a",
+  "#5d6a5e",
+  "#b98a3a",
+  "#2a2a2c"
+ ]
+}

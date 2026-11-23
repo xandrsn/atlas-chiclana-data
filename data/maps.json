@@ -1,0 +1,53 @@
+{
+  "note": "Mapas de v2 (escala 1:1: metros locales, Mercator escalado por cos(lat0) = public/js/geo.js). dir = carpeta de datos de v1 dentro de data/; boundary = poligono del limite (anillos lon/lat); extent = bbox lon/lat [oeste, sur, este, norte]; margin = metros horneados mas alla del limite; limit.pad = el limite jugable se separa pad m hacia fuera del poligono; limit.wall = altura del muro horneado (0 = sin muro; en el mar no se pone: el agua ya es el borde); limit.warn = metros antes del borde en que sale el aviso. levelRoads = nivelar el terreno bajo las calles a nivel (idea de v1 roadlevel.js). Arranque: ?map=<id>&spawn=<nombre de data/zones/<id>.json>",
+  "default": "chiclana",
+  "enabled": ["chiclana"],
+  "maps": {
+    "chiclana": {
+      "name": "Chiclana de la Frontera",
+      "dir": "",
+      "origin": { "lat": 36.4015, "lon": -6.1056 },
+      "extent": [-6.2170286, 36.3309434, -5.9941265, 36.472152],
+      "vexag": 1.875,
+      "boundary": "boundary.json",
+      "margin": 192,
+      "limit": { "pad": 0, "wall": 0, "warn": 60 },
+      "levelRoads": true
+    },
+    "madrid": {
+      "name": "Madrid (dentro de la M-30)",
+      "dir": "madrid",
+      "origin": { "lat": 40.4377, "lon": -3.694 },
+      "extent": [-3.7507182, 40.3816322, -3.6583777, 40.4857389],
+      "vexag": 3, "riverW": 30,
+      "boundary": "madrid/boundary.json",
+      "margin": 256,
+      "limit": { "pad": 70, "wall": 0, "warn": 60 },
+      "levelRoads": true
+    },
+    "cadiz": {
+      "name": "Cádiz (la isla)",
+      "dir": "cadiz",
+      "origin": { "lat": 36.4947, "lon": -6.2613 },
+      "extent": [-6.3176, 36.444, -6.205, 36.5455],
+      "vexag": 1.5,
+      "boundary": "cadiz/boundary.json",
+      "osm": { "name": "Cádiz", "bbox": "-6.4,36.4,-6.1,36.7", "extra": { "name": "San Fernando", "bbox": "-6.3,36.3,-6.1,36.6", "minLat": 36.444, "maxLon": -6.205 }, "tiles": [3, 4] },
+      "margin": 192,
+      "limit": { "pad": 0, "wall": 0, "warn": 60 },
+      "levelRoads": true
+    },
+    "sevilla": {
+      "name": "Sevilla (término municipal)",
+      "dir": "sevilla",
+      "origin": { "lat": 37.3766, "lon": -5.926 },
+      "extent": [-6.0329, 37.3002, -5.8192, 37.453],
+      "vexag": 2,
+      "boundary": "sevilla/boundary.json",
+      "osm": { "name": "Sevilla", "bbox": "-6.2,37.2,-5.8,37.5", "tiles": [8, 7] },
+      "margin": 192,
+      "limit": { "pad": 0, "wall": 0, "warn": 60 },
+      "levelRoads": true
+    }
+  }
+}

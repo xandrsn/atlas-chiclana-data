@@ -1,0 +1,78 @@
+{
+ "id": "tejon-cumbre",
+ "make": "Toyota",
+ "model": "Land Cruiser 90",
+ "archetype": "suv",
+ "era": [
+  1996,
+  2002
+ ],
+ "kind": "car",
+ "seats": 5,
+ "spawnWeight": 4,
+ "dims": {
+  "length": 4.675,
+  "width": 1.785,
+  "height": 1.855,
+  "wheelbase": 2.675,
+  "track": 1.51,
+  "wheelRadius": 0.37,
+  "wheelWidth": 0.23,
+  "groundClearance": 0.22
+ },
+ "body": {
+  "belt": 1.12,
+  "noseH": 1,
+  "tailH": 1.12,
+  "hood": 1.05,
+  "deck": 0.1,
+  "wsRake": 0.55,
+  "rearRake": 0.05,
+  "tumble": 0.1,
+  "windows": {
+   "from": 0.05,
+   "to": 0.95,
+   "panes": 3
+  },
+  "rack": true
+ },
+ "shape": {
+  "flare": 0.02,
+  "lamp": {
+   "h": [
+    0.45,
+    0.9
+   ],
+   "w": 0.9
+  }
+ },
+ "handling": {
+  "gears": 5,
+  "drive": "awd",
+  "grip": 1,
+  "rearGrip": 0.95,
+  "driftFactor": 0.35,
+  "steerMaxDeg": 33,
+  "steerSpeedFalloff": 0.55,
+  "mass": 2050,
+  "powerKW": 120,
+  "maxSpeedKmh": 170,
+  "accel0to100": 14.5,
+  "brakeDecel": 8,
+  "comHeight": 0.7,
+  "suspension": {
+   "stiffness": 48100,
+   "damping": 4329,
+   "travel": 0.17,
+   "rollFactor": 0.7
+  }
+ },
+ "palette": [
+  "#1d1f22",
+  "#c9ccce",
+  "#e8e6e0",
+  "#20324f",
+  "#6b5a3c",
+  "#3d6b45"
+ ]
+}
