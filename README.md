@@ -36,3 +36,6 @@ Raw files are uncompressed, so no `Content-Encoding` is needed.
 No personal data is included. Catastro addresses are public building addresses.
 
 Generator and full pipeline: https://github.com/xandrsn/atlas-generator (see `docs/MAP_CREATION.md` there for the process).
+
+---
+Made by [Charlie Andersen](https://charlieandersen.vercel.app) · Game: [atlas-chiclana](https://github.com/xandrsn/atlas-chiclana) · Generator: [atlas-generator](https://github.com/xandrsn/atlas-generator)
