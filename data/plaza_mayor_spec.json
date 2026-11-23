@@ -1,0 +1,556 @@
+{
+ "center": {
+  "lon": -6.146496,
+  "lat": 36.418025,
+  "x": -3664.2,
+  "z": -1839.8,
+  "note": "centroid of OSM way 184182530 (Plaza Mayor pedestrian square). That OSM way is the square itself, not the Ayuntamiento building as the brief stated"
+ },
+ "elements": [
+  {
+   "kind": "plaza",
+   "name": "Plaza Mayor (pedestrian square)",
+   "lon": -6.146496,
+   "lat": 36.418025,
+   "x": -3664.2,
+   "z": -1839.8,
+   "w": null,
+   "d": null,
+   "h": 0,
+   "rotDeg": null,
+   "polyLocal": [
+    [
+     -3655.27,
+     -1819.1
+    ],
+    [
+     -3655.67,
+     -1818
+    ],
+    [
+     -3642.87,
+     -1812.42
+    ],
+    [
+     -3638.61,
+     -1823.37
+    ],
+    [
+     -3627.82,
+     -1851.12
+    ],
+    [
+     -3636.64,
+     -1855.1
+    ],
+    [
+     -3638.85,
+     -1856.57
+    ],
+    [
+     -3713.47,
+     -1888.1
+    ],
+    [
+     -3724.84,
+     -1861.06
+    ],
+    [
+     -3722.21,
+     -1857.35
+    ],
+    [
+     -3686.26,
+     -1842.54
+    ],
+    [
+     -3660.02,
+     -1832.88
+    ],
+    [
+     -3653.86,
+     -1830.1
+    ],
+    [
+     -3651.61,
+     -1829.08
+    ],
+    [
+     -3655.14,
+     -1819.39
+    ],
+    [
+     -3655.27,
+     -1819.1
+    ]
+   ],
+   "area_m2": 3058,
+   "colorHex": "#B9B4A8",
+   "material": "large-format grey/beige stone slabs with fine joints and linear drainage channels (photo-seen); cobble strip near Ayuntamiento (photo-seen)",
+   "source": "https://www.openstreetmap.org/way/184182530 ; https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman)",
+   "confidence": "OSM-only (geometry, highway=pedestrian, surface=paved) + photo-seen (materials)",
+   "notes": "OSM polygon 16 vertices; area 3058 m2; bounds x -3724.8..-3627.8, z -1888.1..-1812.4. Polygon encloses the east edge of the Iglesia Mayor footprint. No fountain, kiosk, terrace or raised level seen in photos inside the polygon."
+  },
+  {
+   "kind": "church",
+   "name": "Iglesia Mayor San Juan Bautista",
+   "lon": -6.145793,
+   "lat": 36.417881,
+   "x": -3601.2,
+   "z": -1823.7,
+   "w": 53.7,
+   "d": 45.4,
+   "h": null,
+   "rotDeg": null,
+   "colorHex": "#D6B583",
+   "material": "honey/ochre ashlar sandstone (photo-seen estimate)",
+   "source": "https://commons.wikimedia.org/wiki/File:Iglesia_Mayor_Chiclana_de_la_Frontera.jpg ; https://www.openstreetmap.org/way/153210684 ; https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman)",
+   "confidence": "OSM-only (position, heritage tags) + photo-seen (facade). Footprint Catastro idx 65036 (1 floor in Catastro)",
+   "notes": "Neoclassical main facade facing the square (SW side). Triangular pediment with carved group (two angels and coat of arms, photo-seen). Round-arched portal with dark timber doors, balcony with balustrade above portal, round oculi and pilasters (photo-seen). Dome is pale blue-white tile behind, seen from west. Granite-faced steps up to portal. Commons description credits Torcuato Cayon de la Vega (text-described). Catastro says 1 floor; the facade reads 2 levels (portal plus upper balcony) so the Catastro count is probably understated."
+  },
+  {
+   "kind": "tower",
+   "name": "Torre del Reloj (Arquillo del Reloj)",
+   "lon": -6.146194,
+   "lat": 36.418239,
+   "x": -3637.2,
+   "z": -1863.6,
+   "w": null,
+   "d": null,
+   "h": null,
+   "rotDeg": null,
+   "colorHex": "#A77B55",
+   "colorHexDome": "#C9644A/#F2EEE6",
+   "material": "brown-ochre sandstone/brick masonry (photo-seen estimate); tiled dome of red/white checkered ceramic with Greek-key band",
+   "source": "https://www.openstreetmap.org/way/184182532 ; https://commons.wikimedia.org/wiki/File:TORRE_DEL_RELOJ_DE_CHICLANA.jpg ; plaque photo https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman)",
+   "confidence": "OSM-only (position, tags) + photo-seen (plaque, form, clock, arch, dome). Height not in any source (guessed)",
+   "notes": "Built 1759-1767 on the old Casas Consistoriales site (plaque on wall, photo-seen). BIC since 1985 (plaque). Bell tower of Iglesia Mayor. Clock face on the lower stage facing the square; bell stage with two arched openings per face; tiled dome. Ground stage has a round-arch passage into Calle Arquillo del Reloj (OSM tunnel=building_passage, photo-seen). Catastro nearest footprint idx 67292 (2 floors, 7.5x10 m) is too small; OSM way 184182532 is the better footprint."
+  },
+  {
+   "kind": "civic",
+   "name": "Ayuntamiento de Chiclana (Calle Constitucion 1)",
+   "lon": -6.149324,
+   "lat": 36.41958,
+   "x": -3917.6,
+   "z": -2012.9,
+   "w": null,
+   "d": null,
+   "h": null,
+   "rotDeg": null,
+   "colorHex": "#E2C27E",
+   "material": "ochre/yellow render with white stone (pilasters, cornices, balustrade) (photo-seen estimate)",
+   "source": "https://www.openstreetmap.org/way/1319818132 ; https://commons.wikimedia.org/wiki/File:Ayuntamiento_de_Chiclana_de_la_Frontera.jpg",
+   "confidence": "OSM-only (address, amenity=townhall) + photo-seen (facade). NOT adjacent to the Plaza Mayor: about 307 m from plaza centre",
+   "notes": "Neoclassical facade: ochre walls, white pilasters, round oculi in arched attic bays, balustraded balcony with orange-salmon banners bearing the coat of arms, arched ground-floor doorways with fan-shaped iron grilles, wall lanterns (photo-seen). Four flagpoles on the balcony line (Spain, Andalusia, EU, and a red/purple flag). Metal letters \"Chiclana\" on a round planter with water feature and \"Agua no potable\" sign (photo-seen). Catastro idx 59777, 3 floors."
+  },
+  {
+   "kind": "statue",
+   "name": "Monumento al Padre Francisco (Francisco Javier Almandoz Arburua)",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": 0.8,
+   "d": 0.8,
+   "h": 2.5,
+   "rotDeg": null,
+   "colorHex": "#3E3A35",
+   "material": "bronze, dark patina; granite plinth (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:MONUMENTO_DEL_PADRE_FRANCISCO.jpg ; https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman)",
+   "confidence": "photo-seen (statue, plinth, by church steps); identity text-described (Commons). Coordinates not measured",
+   "notes": "Standing priest in cassock with glasses, holding a book (photo-seen). Stands on a granite block plinth on the east side near the church, beside a fan palm (photo-seen in Plaza Mayor 06 and Planomato image). Commons: Padre Almandoz, died 26 Mar 1990. Dimensions guessed."
+  },
+  {
+   "kind": "memorial",
+   "name": "Monumento memorial del Bicentenario de la Batalla de Chiclana (1811)",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": 1.8,
+   "d": 1.2,
+   "h": 3.5,
+   "rotDeg": null,
+   "colorHex": "#4A2E22",
+   "material": "rusted steel silhouette (dark brown) on coursed rough sandstone block plinth (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor,_Monumento_memorial_del_Bicentenario_de_la_Batalla_de_Chiclana_(1811).jpg",
+   "confidence": "photo-seen (object); position GUESSED (near a stone arcaded wall at the square edge)",
+   "notes": "Plate: \"Batalla de Chiclana 5 de marzo de 1811 / Bicentenario de la Batalla de Chiclana / Marzo de 2010\" (photo-seen). Silhouette of raised hands and figures. Dimensions estimated from photo. Stands on bare earth/gravel, so it is at the edge, not on the paving."
+  },
+  {
+   "kind": "statue",
+   "name": "Estatua del torero Paquiro",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": 0.9,
+   "d": 0.9,
+   "h": 2.4,
+   "rotDeg": null,
+   "colorHex": "#2E2A26",
+   "material": "bronze with dark green patina; cut granite plinth (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:Torero_Paquiro_(nacido_en_siglo_19)._Plaza_Mayor._Chiclana_de_la_Frontera..JPG",
+   "confidence": "photo-seen (statue); placement \"Plaza Mayor\" from Commons title only, exact location in the square not verified",
+   "notes": "Standing bullfighter with montera and cape over arm. Background is a white rendered wall with grey marble dado and a wooden door (photo-seen). Heights estimated."
+  },
+  {
+   "kind": "bench",
+   "name": "Banco de piedra con escudo",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": 2.2,
+   "d": 0.7,
+   "h": 0.9,
+   "rotDeg": null,
+   "colorHex": "#E0CFA8",
+   "material": "cream sandstone/limestone; carved coat-of-arms relief on backrest (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman) (images 07 and 08)",
+   "confidence": "photo-seen (form, material); count (at least 2) and positions not measured",
+   "notes": "Oval seat with a curved high back carved with the municipal coat of arms; curved legs (photo-seen). Dimensions estimated."
+  },
+  {
+   "kind": "lamp",
+   "name": "Farola de hierro fundido (doble/triple globo)",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": null,
+   "d": null,
+   "h": 4.5,
+   "rotDeg": null,
+   "colorHex": "#1F2420",
+   "material": "black painted cast iron, ornate cap, glass lantern globes (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman) (06)",
+   "confidence": "photo-seen (type); height guessed; positions not measured",
+   "notes": "Posts carry 2 or 3 lanterns (photo-seen). At least 8 seen around the square and church steps. Height estimated."
+  },
+  {
+   "kind": "planter",
+   "name": "Jardinera cuadrada de metal oscuro con flores rojas",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": 1.2,
+   "d": 1.2,
+   "h": 0.8,
+   "rotDeg": null,
+   "colorHex": "#4A4D4F",
+   "material": "dark grey metal or concrete planter with red/pink flowering plants (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman)",
+   "confidence": "photo-seen (type); count at least 6; positions not measured",
+   "notes": "Large square planters, two or three in the open paving (photo-seen). Dimensions estimated."
+  },
+  {
+   "kind": "tree",
+   "name": "Arboles de copa redondeada podados (especie no identificada)",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": 4,
+   "d": 4,
+   "h": 5,
+   "rotDeg": null,
+   "colorHex": "#3F6B34",
+   "material": "broadleaf, lollipop/dome-pruned crown (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman)",
+   "confidence": "photo-seen (form); species GUESSED; count at least 6",
+   "notes": "No OSM natural=tree nodes within 130 m. Crowns estimated."
+  },
+  {
+   "kind": "palm",
+   "name": "Palmeras de abanico (probable Washingtonia)",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": 3,
+   "d": 3,
+   "h": 9,
+   "rotDeg": null,
+   "colorHex": "#5B7A3A",
+   "material": "fan palm (photo-seen form; species probable)",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman)",
+   "confidence": "photo-seen; species guessed",
+   "notes": "Fan palms beside the church and near the tower (photo-seen). Heights estimated."
+  },
+  {
+   "kind": "railing",
+   "name": "Barandilla de hierro forjado negro",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": null,
+   "d": null,
+   "h": 1.1,
+   "rotDeg": null,
+   "colorHex": "#17191A",
+   "material": "black wrought iron with scroll ornaments (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman)",
+   "confidence": "photo-seen; positions not measured",
+   "notes": "Along the church steps and the lower terrace wall (photo-seen)."
+  },
+  {
+   "kind": "signage",
+   "name": "Azulejo \"PLAZA MAYOR\" en la esquina de la Torre",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": 0.6,
+   "d": 0.1,
+   "h": 2.5,
+   "rotDeg": null,
+   "colorHex": "#F4F4F0",
+   "material": "glazed ceramic tile, white with blue border (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman) (04)",
+   "confidence": "photo-seen",
+   "notes": "Same wall holds a yellow tile \"PLAZA DE SAN JUAN BAUTISTA\", the Torre plaque, and a no-entry sign \"EXCEPTO AUTORIZADOS\" (photo-seen)."
+  },
+  {
+   "kind": "plaque",
+   "name": "Placa historica Plaza Mayor (Ruta Romantica)",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": 0.6,
+   "d": 0.05,
+   "h": 1.1,
+   "rotDeg": null,
+   "colorHex": "#F0E6C8",
+   "material": "ceramic/printed plaque, red title, oval painted image (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman) (03)",
+   "confidence": "photo-seen (text read); position not recorded",
+   "notes": "Text: townspeople asserted liberty by swearing the Constitution of 1836 (La Pepa) and the 1837 one; Ayuntamiento and Ruta Romantica logos (photo-seen)."
+  },
+  {
+   "kind": "signage",
+   "name": "Placa de la Torre del Reloj (BIC 1985)",
+   "lon": null,
+   "lat": null,
+   "x": null,
+   "z": null,
+   "w": 0.5,
+   "d": 0.05,
+   "h": 0.7,
+   "rotDeg": null,
+   "colorHex": "#FFFFFF",
+   "material": "white marble plaque (photo-seen)",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiclana_de_la_Frontera_-_Plaza_Mayor_01.jpg (set 01-08, CC0, Zarateman) (04)",
+   "confidence": "photo-seen (text)",
+   "notes": "Reads: Torre del Reloj, siglo XVIII, estilo neoclasico; known as Arquillo del Reloj; built 1759-1767; BIC since 1985 (photo-seen)."
+  }
+ ],
+ "buildings": [
+  {
+   "osmId": "way/153210684",
+   "catastroRef": "idx65036",
+   "lon": -6.145793,
+   "lat": 36.417881,
+   "facadeColors": [
+    "#D6B583",
+    "#F2EEE6 (trim)"
+   ],
+   "floors": 1,
+   "features": "neoclassical facade, pediment with sculpture, pilasters, arched portal, balustrade balcony, round oculi, dome behind",
+   "shops": []
+  },
+  {
+   "osmId": "way/184182532",
+   "lon": -6.146194,
+   "lat": 36.418239,
+   "facadeColors": [
+    "#A77B55",
+    "#C9644A/#F2EEE6 dome"
+   ],
+   "floors": null,
+   "features": "clock tower, bell stage, round arch passage, tiled dome",
+   "shops": []
+  },
+  {
+   "osmId": "way/1319818132",
+   "catastroRef": "idx59777",
+   "lon": -6.149324,
+   "lat": 36.41958,
+   "facadeColors": [
+    "#E2C27E",
+    "#F2F0EA (pilasters)"
+   ],
+   "floors": 3,
+   "features": "balcony, arched doorways with grilles, lanterns, flags, oculi",
+   "shops": [],
+   "notes": "Not adjacent to plaza (about 307 m)"
+  },
+  {
+   "osmId": "node/9869311317",
+   "catastroRef": "idx64971 or idx64967 (candidate)",
+   "lon": -6.146459,
+   "lat": 36.417499,
+   "facadeColors": [
+    "guessed"
+   ],
+   "floors": 2,
+   "features": "Museo de Chiclana, OSM addr Plaza Mayor 7",
+   "shops": [
+    {
+     "name": "Museo de Chiclana",
+     "type": "museum",
+     "side": "south"
+    }
+   ]
+  },
+  {
+   "osmId": "node/4261016398",
+   "catastroRef": "idx65192 (candidate)",
+   "lon": -6.14669,
+   "lat": 36.418454,
+   "facadeColors": [
+    "guessed"
+   ],
+   "floors": 1,
+   "features": "bar",
+   "shops": [
+    {
+     "name": "Taberna la ilusion",
+     "type": "bar",
+     "side": "north"
+    }
+   ]
+  },
+  {
+   "osmId": "node/4261032596",
+   "catastroRef": "idx65203",
+   "lon": -6.146933,
+   "lat": 36.418534,
+   "facadeColors": [
+    "guessed"
+   ],
+   "floors": 2,
+   "features": "supermarket ground floor",
+   "shops": [
+    {
+     "name": "Covirán",
+     "type": "supermarket",
+     "side": "north-west"
+    },
+    {
+     "name": "Las cuatro esquinas",
+     "type": "supermarket",
+     "side": "north-west"
+    }
+   ]
+  },
+  {
+   "osmId": "node/698086761",
+   "catastroRef": "idx61143 (candidate)",
+   "lon": -6.147334,
+   "lat": 36.418474,
+   "facadeColors": [
+    "guessed"
+   ],
+   "floors": 3,
+   "features": "pharmacy ground floor",
+   "shops": [
+    {
+     "name": "Farmacia (unnamed in OSM)",
+     "type": "pharmacy",
+     "side": "north-west"
+    }
+   ]
+  }
+ ],
+ "streets": [
+  {
+   "name": "Calle Arquillo del Reloj",
+   "hw": "pedestrian",
+   "touch": "arch passage under Torre; 3.8 m from plaza edge (OSM w760711389 tunnel=building_passage)",
+   "source": "https://www.openstreetmap.org/way/184182532"
+  },
+  {
+   "name": "Calle Callejoncillo",
+   "hw": "pedestrian",
+   "touch": "1.4 m from edge",
+   "source": "https://www.openstreetmap.org/way/53655419"
+  },
+  {
+   "name": "Calle La Rosa",
+   "hw": "pedestrian",
+   "touch": "1.4 m from edge",
+   "source": "https://www.openstreetmap.org/way/141771849"
+  },
+  {
+   "name": "Calle Martin Jimenez",
+   "hw": "pedestrian",
+   "touch": "touches plaza edge (0 m)",
+   "source": "https://www.openstreetmap.org/way/153203995"
+  },
+  {
+   "name": "Calle San Jose",
+   "hw": "residential oneway",
+   "touch": "2.3 m from edge",
+   "source": "https://www.openstreetmap.org/way/53655421"
+  },
+  {
+   "name": "Calle Padre Anieto",
+   "hw": "living_street maxwidth 2.0",
+   "touch": "3.6 m from edge",
+   "source": "https://www.openstreetmap.org/way/141771848"
+  },
+  {
+   "name": "Calle Larga",
+   "hw": "living_street",
+   "touch": "3.6 m from edge",
+   "source": "https://www.openstreetmap.org/way/198235427"
+  },
+  {
+   "name": "Calle Botica",
+   "hw": "residential / service oneway",
+   "touch": "19 m from edge",
+   "source": "https://www.openstreetmap.org/way/53655413"
+  },
+  {
+   "name": "Calle Obispo Rancés",
+   "hw": "pedestrian",
+   "touch": "22 m from edge",
+   "source": "https://www.openstreetmap.org/way/53655415"
+  },
+  {
+   "name": "Calle Santo Cristo",
+   "hw": "residential oneway",
+   "touch": "31 m from edge",
+   "source": "https://www.openstreetmap.org/way/53802771"
+  },
+  {
+   "name": "Calle Amados",
+   "hw": "residential",
+   "touch": "37 m from edge",
+   "source": "https://www.openstreetmap.org/way/53621082"
+  },
+  {
+   "name": "Parque Paquiro",
+   "hw": "park",
+   "touch": "27 m from edge",
+   "source": "https://www.openstreetmap.org/way/817250889"
+  },
+  {
+   "name": "Calle Constitucion",
+   "hw": "pedestrian oneway",
+   "touch": "not within 130 m (centroid about 317 m); Ayuntamiento address street",
+   "source": "https://www.openstreetmap.org/way/53620052"
+  }
+ ],
+ "notMeasured": [
+  "positions of benches, lamps, trees, planters, statues (no OSM nodes, photos only)",
+  "paving pattern details beyond photos",
+  "building heights",
+  "Torre height",
+  "Museo/Taberna/Covirán facade colours"
+ ]
+}

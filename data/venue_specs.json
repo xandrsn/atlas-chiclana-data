@@ -1,0 +1,7410 @@
+[
+ {
+  "id": "w475583129",
+  "name": "Venta El Florín",
+  "anchor": {
+   "x": -3690.1,
+   "z": 877.5
+  },
+  "facing": 0,
+  "search": 30,
+  "width": 16,
+  "facade": {
+   "color": "#efe4cc",
+   "plinth": "#8d1d22",
+   "trim": "#8d1d22",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.4
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -5.6,
+    "w": 3.4,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": -1.7,
+    "w": 2.3,
+    "h": 2.2,
+    "hours": "L-D 07:00-00:00",
+    "tel": "956 49 52 51"
+   },
+   {
+    "t": "window",
+    "u": 1.9,
+    "w": 3.4,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "window",
+    "u": 5.6,
+    "w": 3.4,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Venta El Florín",
+   "sub": "DESDE 1981",
+   "emblem": "fleur",
+   "font": "script",
+   "bg": "#8d1d22",
+   "fg": "#f6efe0",
+   "border": "#d9b66a",
+   "w": 6.4,
+   "h": 1.5,
+   "y": 3.45,
+   "u": -1.7
+  },
+  "awning": {
+   "color": "#8d1d22",
+   "stripe": "#f6efe0",
+   "depth": 1.4,
+   "w": 14,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 4,
+   "offset": 2.7,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#f2eee4",
+   "chair": "#4a3a2a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 3.8,
+    "z": 1.5,
+    "title": "DESAYUNOS",
+    "lines": [
+     "desde las 07:00",
+     "Cocina 08:00 - 23:30"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -3.2,
+     0.1
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -7,
+     7
+    ]
+   }
+  ],
+  "sources": [
+   "OSM way 475583129 (name, building footprint, amenity=restaurant)",
+   "https://ventaelflorin.es/ (hours 07:00-00:00, kitchen 08:00-23:30, breakfasts 07:00-12:30, phone 956 495 251, address Carr. de Fuente Amarga s/n; brand logo = white fleur-de-lis + script 'El Florín' on red)",
+   "https://www.eurovelospain.com/servicios/restauracion/venta-el-florin/ (founded 1981 by 'Chano', family business)",
+   "PNOA z19 orthophoto (roofs: flat grey/concrete roofs, small red-tile part, front car park to the north, roundabout NW)"
+  ],
+  "confidence": {
+   "position/footprint/name/hours/brand colours": "verified (OSM + official site + orthophoto)",
+   "facade colour, windows/door layout, awning, terrace, extras": "guessed (no facade photo found; no Street View used)"
+  }
+ },
+ {
+  "id": "n13592179201",
+  "name": "La Repesca",
+  "anchor": {
+   "x": -3634.1,
+   "z": 791.9
+  },
+  "facing": 180,
+  "search": 22,
+  "width": 12,
+  "facade": {
+   "color": "#f3f1ea",
+   "plinth": "#4b5563",
+   "trim": "#1d3b5a",
+   "plinthH": 0.8,
+   "groundH": 3.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 1.9,
+    "h": 2.1
+   },
+   {
+    "t": "window",
+    "u": 3.4,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "La Repesca",
+   "sub": "BAR",
+   "font": "sans",
+   "bg": "#1d3b5a",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 4.2,
+   "h": 1,
+   "y": 3.2,
+   "u": 0
+  },
+  "awning": {
+   "color": "#1d3b5a",
+   "stripe": "#ffffff",
+   "depth": 1.3,
+   "w": 9,
+   "y": 3,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 3,
+   "offset": 2.4,
+   "rowGap": 1.9,
+   "colGap": 2,
+   "u": 0,
+   "parasol": true,
+   "table": "#ece8dc",
+   "chair": "#2f2f2f",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 2.9,
+    "z": 1.3,
+    "title": "MENU",
+    "lines": [
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.6,
+     1.6
+    ]
+   }
+  ],
+  "sources": [
+   "OSM node n13592179201 (amenity=bar, name 'La Repesca') at 36.394386,-6.14616",
+   "Restaurant Guru listing (search snippet only; page blocked for bots): address Carretera de Fuente Amarga 151",
+   "PNOA z19 orthophoto: the node sits at the south edge of a white-roofed commercial building next to the BP El Florín service area; open parking to the south"
+  ],
+  "confidence": {
+   "position / name / which building": "OSM node only (medium); the node is at the building's south edge so the facade faces south (inferred)",
+   "everything else (colours, sign style, awning, terrace)": "guessed - no photo or description found"
+  }
+ },
+ {
+  "id": "n4708463091",
+  "name": "La Casa del Farero",
+  "auto": true,
+  "rank": 1,
+  "anchor": {
+   "x": -9048.8,
+   "z": 532.4
+  },
+  "facing": 154,
+  "search": 28,
+  "width": 10,
+  "facade": {
+   "color": "#ece6d2",
+   "plinth": "#2f4a33",
+   "trim": "#2f4a33",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.8,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.8,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "La Casa del Farero",
+   "sub": "FISH",
+   "font": "rounded",
+   "bg": "#2f4a33",
+   "fg": "#f4ecd6",
+   "border": "#c9b36a",
+   "w": 7.5,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#2f4a33",
+   "stripe": "#f4ecd6",
+   "depth": 1.4,
+   "w": 9,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 3,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#f2eee4",
+   "chair": "#8d1d22",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 3.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -3.8,
+     3.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -4.5,
+     4.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4708463091 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "https://gastroranking.es/restaurantes/cadiz/chiclana-de-la-frontera",
+   "ranking: tipo restaurant +14; web +8; teléfono +4; terraza +5"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Carrefour Express@-3939.5,-2074.8",
+  "name": "Carrefour Express",
+  "auto": true,
+  "rank": 3,
+  "anchor": {
+   "x": -3939.5,
+   "z": -2074.8
+  },
+  "facing": 313,
+  "search": 28,
+  "width": 18,
+  "facade": {
+   "color": "#eceff3",
+   "plinth": "#2a4a73",
+   "trim": "#004e9f",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 3.4,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Carrefour Express",
+   "font": "sans",
+   "bg": "#004e9f",
+   "fg": "#ffffff",
+   "border": "#e30613",
+   "w": 7.4,
+   "h": 1,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#004e9f",
+   "stripe": "#e30613",
+   "depth": 1,
+   "w": 17,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -7.8,
+     7.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Carrefour Express@-3939.5,-2074.8 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; dirección +2; cadena conocida +16; Plaza Mayor / centro (272 m) +23.2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n698086759",
+  "name": "Hormaza 19",
+  "auto": true,
+  "rank": 5,
+  "anchor": {
+   "x": -3921.2,
+   "z": -1757
+  },
+  "facing": 274,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f4f1e8",
+   "plinth": "#0f6b73",
+   "trim": "#0f6b73",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.9000000000000004
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Hormaza 19",
+   "font": "script",
+   "bg": "#0f6b73",
+   "fg": "#ffffff",
+   "border": "#e9f5f3",
+   "w": 5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#0f6b73",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#e3d5b8",
+   "chair": "#4a3a2a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n698086759 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "https://gastroranking.es/restaurantes/cadiz/chiclana-de-la-frontera",
+   "ranking: tipo restaurant +14; dirección +2; Plaza Mayor / centro (356 m) +21.1; evidencia manual +16.9: agregador GastroRanking (Tripadvisor/Google/otros): 667 opiniones"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Dia@-4070.9,-2052.5",
+  "name": "Dia",
+  "auto": true,
+  "rank": 6,
+  "anchor": {
+   "x": -4070.9,
+   "z": -2052.5
+  },
+  "facing": 321,
+  "search": 28,
+  "width": 16,
+  "facade": {
+   "color": "#f1eee6",
+   "plinth": "#8a1a14",
+   "trim": "#e30613",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -2.7,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 2.7,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Dia",
+   "font": "rounded",
+   "bg": "#e30613",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 3,
+   "h": 1.3,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#e30613",
+   "stripe": "#ffffff",
+   "depth": 1,
+   "w": 15,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -6.8,
+     6.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Dia@-4070.9,-2052.5 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; dirección +2; cadena conocida +16; Plaza Mayor / centro (399 m) +20.0"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "v:Supermercados DIA@-3461.8,-2453.7",
+  "name": "Supermercados DIA",
+  "auto": true,
+  "rank": 7,
+  "anchor": {
+   "x": -3461.8,
+   "z": -2453.7
+  },
+  "facing": 66,
+  "search": 28,
+  "width": 22,
+  "facade": {
+   "color": "#f1eee6",
+   "plinth": "#8a1a14",
+   "trim": "#e30613",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 3.4,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Supermercados DIA",
+   "font": "rounded",
+   "bg": "#e30613",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 7.4,
+   "h": 1.3,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#e30613",
+   "stripe": "#ffffff",
+   "depth": 1,
+   "w": 21,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -9.8,
+     9.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Supermercados DIA@-3461.8,-2453.7 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; dirección +2; cadena conocida +16; Plaza Mayor / centro (484 m) +17.9"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "v:Carrefour Express@-3492.4,-2405.4",
+  "name": "Carrefour Express",
+  "auto": true,
+  "rank": 8,
+  "anchor": {
+   "x": -3492.4,
+   "z": -2405.4
+  },
+  "facing": 269,
+  "search": 28,
+  "width": 7,
+  "facade": {
+   "color": "#eceff3",
+   "plinth": "#2a4a73",
+   "trim": "#004e9f",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.95,
+    "w": 1.9,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.1666666666666667,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Carrefour Express",
+   "font": "sans",
+   "bg": "#004e9f",
+   "fg": "#ffffff",
+   "border": "#e30613",
+   "w": 6,
+   "h": 1,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#004e9f",
+   "stripe": "#e30613",
+   "depth": 1,
+   "w": 6,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -2.3,
+     2.3
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Carrefour Express@-3492.4,-2405.4 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; cadena conocida +16; Plaza Mayor / centro (428 m) +19.3"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n1601503262",
+  "name": "Cachito Novo",
+  "auto": true,
+  "rank": 9,
+  "anchor": {
+   "x": -5330.4,
+   "z": 5530.2
+  },
+  "facing": 99,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#eee3d6",
+   "plinth": "#5a2d4a",
+   "trim": "#5a2d4a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.9000000000000004
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Cachito Novo",
+   "sub": "MEDITERRANEAN",
+   "font": "serif",
+   "bg": "#5a2d4a",
+   "fg": "#f6e7ef",
+   "border": "#e0b4cc",
+   "w": 5.7,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#5a2d4a",
+   "stripe": "#f6e7ef",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#6b4a2a",
+   "chair": "#c9b38a",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n1601503262 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; web +8; teléfono +4; horario +4"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Mercadona@-3593.5,-1522.1",
+  "name": "Mercadona",
+  "auto": true,
+  "rank": 12,
+  "anchor": {
+   "x": -3593.5,
+   "z": -1522.1
+  },
+  "facing": 92,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f3f1ea",
+   "plinth": "#00843d",
+   "trim": "#00843d",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 2.9000000000000004
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Mercadona",
+   "font": "rounded",
+   "bg": "#ffffff",
+   "fg": "#00843d",
+   "border": "#00843d",
+   "w": 4.7,
+   "h": 1,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#00843d",
+   "stripe": "#ffffff",
+   "depth": 1,
+   "w": 5,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Mercadona@-3593.5,-1522.1 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; cadena conocida +16; Plaza Mayor / centro (496 m) +17.6"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n5795834537",
+  "name": "Restaurante y Pizzería Artesanal Il Bacio",
+  "auto": true,
+  "rank": 13,
+  "anchor": {
+   "x": -5392,
+   "z": 5434.1
+  },
+  "facing": 239,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#ece6d2",
+   "plinth": "#2f4a33",
+   "trim": "#2f4a33",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.8000000000000003
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Restaurante y Pizzería Art",
+   "sub": "ITALIAN",
+   "font": "rounded",
+   "bg": "#2f4a33",
+   "fg": "#f4ecd6",
+   "border": "#c9b36a",
+   "w": 7.5,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#2f4a33",
+   "stripe": "#f4ecd6",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#e3d5b8",
+   "chair": "#2f4a33",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n5795834537 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; web +8; teléfono +4; horario +4"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n11773475180",
+  "name": "Ito Tapas",
+  "auto": true,
+  "rank": 15,
+  "anchor": {
+   "x": -4011.3,
+   "z": -2243.8
+  },
+  "facing": 46,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f1e1bf",
+   "plinth": "#7a4a1d",
+   "trim": "#c46a1d",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Ito Tapas",
+   "font": "serif",
+   "bg": "#c46a1d",
+   "fg": "#fff6e5",
+   "border": "#fff6e5",
+   "w": 4.7,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#c46a1d",
+   "stripe": "#fff6e5",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#f2eee4",
+   "chair": "#4a3a2a",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n11773475180 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "https://gastroranking.es/restaurantes/cadiz/chiclana-de-la-frontera",
+   "ranking: tipo restaurant +14; Plaza Mayor / centro (407 m) +19.8; evidencia manual +12: agregador GastroRanking (Tripadvisor/Google/otros): varias opiniones"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:ALDI@-4315.5,-2365.1",
+  "name": "ALDI",
+  "auto": true,
+  "rank": 16,
+  "anchor": {
+   "x": -4315.5,
+   "z": -2365.1
+  },
+  "facing": 238,
+  "search": 28,
+  "width": 22,
+  "facade": {
+   "color": "#eceff3",
+   "plinth": "#00005f",
+   "trim": "#00005f",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 3.4,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "ALDI",
+   "font": "sans",
+   "bg": "#00005f",
+   "fg": "#ffffff",
+   "border": "#ff6a13",
+   "w": 3,
+   "h": 1.1,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#00005f",
+   "stripe": "#ff6a13",
+   "depth": 1,
+   "w": 21,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -9.8,
+     9.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:ALDI@-4315.5,-2365.1 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; dirección +2; cadena conocida +16; Plaza Mayor / centro (730 m) +11.8"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "v:Mercadona@-4309.1,-2192.5",
+  "name": "Mercadona",
+  "auto": true,
+  "rank": 17,
+  "anchor": {
+   "x": -4309.1,
+   "z": -2192.5
+  },
+  "facing": 224,
+  "search": 28,
+  "width": 20,
+  "facade": {
+   "color": "#f3f1ea",
+   "plinth": "#00843d",
+   "trim": "#00843d",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.5
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 3.4,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Mercadona",
+   "font": "rounded",
+   "bg": "#ffffff",
+   "fg": "#00843d",
+   "border": "#00843d",
+   "w": 4.7,
+   "h": 1,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#00843d",
+   "stripe": "#ffffff",
+   "depth": 1,
+   "w": 19,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -8.8,
+     8.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Mercadona@-4309.1,-2192.5 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; cadena conocida +16; Plaza Mayor / centro (659 m) +13.5"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "v:Las cuatro esquinas@-3706.8,-1895.1",
+  "name": "Las cuatro esquinas",
+  "auto": true,
+  "rank": 18,
+  "anchor": {
+   "x": -3706.8,
+   "z": -1895.1
+  },
+  "facing": 116,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f0e8d8",
+   "plinth": "#a8442a",
+   "trim": "#a8442a",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Las cuatro esquinas",
+   "font": "sans",
+   "bg": "#f4ecd6",
+   "fg": "#3a2a1a",
+   "border": "#3a2a1a",
+   "w": 5,
+   "h": 1.3,
+   "y": 4.25,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Las cuatro esquinas@-3706.8,-1895.1 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; dirección +2; Plaza Mayor / centro (124 m) +26.9"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n6403427204",
+  "name": "El Árbol Tapas",
+  "auto": true,
+  "rank": 19,
+  "anchor": {
+   "x": -6891.7,
+   "z": 3240.3
+  },
+  "facing": 47,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f3f1ea",
+   "plinth": "#4b5563",
+   "trim": "#1d3b5a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.9000000000000004
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "El Árbol Tapas",
+   "sub": "REGIONAL",
+   "font": "script",
+   "bg": "#1d3b5a",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 5,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#1d3b5a",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#f2eee4",
+   "chair": "#1d3b5a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Carnes a la brasa"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n6403427204 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 3.9 m)",
+   "https://gastroranking.es/restaurantes/cadiz/chiclana-de-la-frontera",
+   "ranking: tipo restaurant +14; teléfono +4; cocina +2; dirección +2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n14344641801",
+  "name": "La embajada",
+  "auto": true,
+  "rank": 21,
+  "anchor": {
+   "x": -4072.6,
+   "z": -2297.5
+  },
+  "facing": 49,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#e9e2d3",
+   "plinth": "#3a3a3a",
+   "trim": "#2b2b2b",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.9000000000000004
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "La embajada",
+   "sub": "MEDITERRANEAN",
+   "font": "rounded",
+   "bg": "#2b2b2b",
+   "fg": "#f2c14e",
+   "border": "#f2c14e",
+   "w": 5.3,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#2b2b2b",
+   "stripe": "#f2c14e",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#3a3a3a",
+   "chair": "#2f4a33",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n14344641801 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 8.3 m)",
+   "ranking: tipo restaurant +14; teléfono +4; horario +4; cocina +2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Covirán@-3755.7,-1974.6",
+  "name": "Covirán",
+  "auto": true,
+  "rank": 22,
+  "anchor": {
+   "x": -3755.7,
+   "z": -1974.6
+  },
+  "facing": 293,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f1eee4",
+   "plinth": "#006a2c",
+   "trim": "#009640",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Covirán",
+   "font": "rounded",
+   "bg": "#009640",
+   "fg": "#ffffff",
+   "border": "#f39200",
+   "w": 4,
+   "h": 1.3,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#009640",
+   "stripe": "#f39200",
+   "depth": 1,
+   "w": 5,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Covirán@-3755.7,-1974.6 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; Plaza Mayor / centro (91 m) +27.7"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "v:Covirán@-3703.3,-1896.4",
+  "name": "Covirán",
+  "auto": true,
+  "rank": 23,
+  "anchor": {
+   "x": -3703.3,
+   "z": -1896.4
+  },
+  "facing": 208,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f1eee4",
+   "plinth": "#006a2c",
+   "trim": "#009640",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Covirán",
+   "font": "rounded",
+   "bg": "#009640",
+   "fg": "#ffffff",
+   "border": "#f39200",
+   "w": 4,
+   "h": 1.1,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#009640",
+   "stripe": "#f39200",
+   "depth": 1,
+   "w": 5,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Covirán@-3703.3,-1896.4 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; Plaza Mayor / centro (122 m) +27.0"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "v:Maxi Dia@-3433.4,-3040.5",
+  "name": "Maxi Dia",
+  "auto": true,
+  "rank": 24,
+  "anchor": {
+   "x": -3433.4,
+   "z": -3040.5
+  },
+  "facing": 112,
+  "search": 28,
+  "width": 22,
+  "facade": {
+   "color": "#f1eee6",
+   "plinth": "#8a1a14",
+   "trim": "#e30613",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 3.4,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Maxi Dia",
+   "font": "rounded",
+   "bg": "#e30613",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 4.3,
+   "h": 1.3,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#e30613",
+   "stripe": "#ffffff",
+   "depth": 1,
+   "w": 21,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -9.8,
+     9.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Maxi Dia@-3433.4,-3040.5 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; dirección +2; cadena conocida +16; zona comercial N-340 (142 m) +8.8"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n4209134962",
+  "name": "En la Parra",
+  "auto": true,
+  "rank": 25,
+  "anchor": {
+   "x": -3755.2,
+   "z": -2220.4
+  },
+  "facing": 27,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f4f1e8",
+   "plinth": "#0f6b73",
+   "trim": "#0f6b73",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.8000000000000003
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "En la Parra",
+   "sub": "SPANISH",
+   "font": "rounded",
+   "bg": "#0f6b73",
+   "fg": "#ffffff",
+   "border": "#e9f5f3",
+   "w": 5,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#0f6b73",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#6b4a2a",
+   "chair": "#4a3a2a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4209134962 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; cocina +2; dirección +2; Plaza Mayor / centro (220 m) +24.5"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n13406560001",
+  "name": "El Patio de los Pintxos",
+  "auto": true,
+  "rank": 27,
+  "anchor": {
+   "x": -5250,
+   "z": 5479.6
+  },
+  "facing": 189,
+  "search": 28,
+  "width": 7,
+  "facade": {
+   "color": "#f0e8d8",
+   "plinth": "#a8442a",
+   "trim": "#a8442a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.95,
+    "w": 1.9,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.1666666666666667,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "El Patio de los Pintxos",
+   "sub": "REGIONAL",
+   "font": "serif",
+   "bg": "#f4ecd6",
+   "fg": "#3a2a1a",
+   "border": "#3a2a1a",
+   "w": 6,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#a8442a",
+   "stripe": "#f4ecd6",
+   "depth": 1.4,
+   "w": 6,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#3a3a3a",
+   "chair": "#1d3b5a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 2.1,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Carnes a la brasa"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -2.3,
+     2.3
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -3,
+     3
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13406560001 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; teléfono +4; horario +4; cocina +2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n13495217001",
+  "name": "Restaurante Marisquería La Galería de Paco",
+  "auto": true,
+  "rank": 28,
+  "anchor": {
+   "x": -5254,
+   "z": 5462
+  },
+  "facing": 188,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#f3f1ea",
+   "plinth": "#4b5563",
+   "trim": "#1d3b5a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Restaurante Marisquería La",
+   "sub": "MEDITERRANEAN",
+   "font": "script",
+   "bg": "#1d3b5a",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 7.5,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#1d3b5a",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#6b4a2a",
+   "chair": "#4a3a2a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13495217001 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; teléfono +4; horario +4; cocina +2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n13504837001",
+  "name": "Pizzeria Trattoria PortoNovo Pizzeria",
+  "auto": true,
+  "rank": 33,
+  "anchor": {
+   "x": -5303.4,
+   "z": 5531.7
+  },
+  "facing": 278,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#f4f1e8",
+   "plinth": "#0f6b73",
+   "trim": "#0f6b73",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.5
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Pizzeria Trattoria PortoNo",
+   "sub": "ITALIAN",
+   "font": "rounded",
+   "bg": "#0f6b73",
+   "fg": "#ffffff",
+   "border": "#e9f5f3",
+   "w": 7.5,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#0f6b73",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#6b4a2a",
+   "chair": "#c9b38a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13504837001 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; teléfono +4; horario +4; cocina +2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Lidl@-3338.6,-3289",
+  "name": "Lidl",
+  "auto": true,
+  "rank": 34,
+  "anchor": {
+   "x": -3338.6,
+   "z": -3289
+  },
+  "facing": 279,
+  "search": 28,
+  "width": 12,
+  "facade": {
+   "color": "#eceff3",
+   "plinth": "#003a7a",
+   "trim": "#0050aa",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -2.7,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 2.7,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Lidl",
+   "font": "sans",
+   "bg": "#0050aa",
+   "fg": "#fff000",
+   "border": "#e60a14",
+   "w": 3,
+   "h": 1,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#0050aa",
+   "stripe": "#fff000",
+   "depth": 1,
+   "w": 11,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -4.8,
+     4.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Lidl@-3338.6,-3289 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 7.0 m)",
+   "ranking: tipo supermarket +16; cadena conocida +16; zona comercial N-340 (186 m) +8.4"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "v:Mercadona@-3256.6,-3201.9",
+  "name": "Mercadona",
+  "auto": true,
+  "rank": 35,
+  "anchor": {
+   "x": -3256.6,
+   "z": -3201.9
+  },
+  "facing": 73,
+  "search": 28,
+  "width": 22,
+  "facade": {
+   "color": "#f3f1ea",
+   "plinth": "#00843d",
+   "trim": "#00843d",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 3.4,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Mercadona",
+   "font": "rounded",
+   "bg": "#ffffff",
+   "fg": "#00843d",
+   "border": "#00843d",
+   "w": 4.7,
+   "h": 1.1,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#00843d",
+   "stripe": "#ffffff",
+   "depth": 1,
+   "w": 21,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -9.8,
+     9.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Mercadona@-3256.6,-3201.9 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; cadena conocida +16; zona comercial N-340 (230 m) +8.1"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n13531508501",
+  "name": "El Molino Listo para Llevar",
+  "auto": true,
+  "rank": 36,
+  "anchor": {
+   "x": -3838.9,
+   "z": -1737.4
+  },
+  "facing": 184,
+  "search": 28,
+  "width": 8,
+  "facade": {
+   "color": "#e9e2d3",
+   "plinth": "#3a3a3a",
+   "trim": "#2b2b2b",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -2.2,
+    "w": 2.4,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.3333333333333333,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "El Molino Listo para Lleva",
+   "font": "rounded",
+   "bg": "#2b2b2b",
+   "fg": "#f2c14e",
+   "border": "#f2c14e",
+   "w": 7,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#2b2b2b",
+   "stripe": "#f2c14e",
+   "depth": 1.4,
+   "w": 7,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 3,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#3a3a3a",
+   "chair": "#8d1d22",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 2.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -2.8,
+     2.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -3.5,
+     3.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13531508501 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; horario +4; Plaza Mayor / centro (321 m) +22.0"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n698086750",
+  "name": "McDonald's",
+  "auto": true,
+  "rank": 37,
+  "anchor": {
+   "x": -3489.4,
+   "z": -3186.9
+  },
+  "facing": 102,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#f1ece0",
+   "plinth": "#8a1a14",
+   "trim": "#db0007",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "McDonald's",
+   "font": "rounded",
+   "bg": "#db0007",
+   "fg": "#ffc72c",
+   "border": "#ffc72c",
+   "w": 5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#db0007",
+   "stripe": "#ffc72c",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n698086750 (nombre, fast_food)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo fast_food +12; cocina +2; cadena conocida +16; zona comercial N-340 (14 m) +9.9"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n4708453991",
+  "name": "Gastropub MamaInés",
+  "auto": true,
+  "rank": 38,
+  "anchor": {
+   "x": -3523.7,
+   "z": -2221.5
+  },
+  "facing": 119,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#e9e2d3",
+   "plinth": "#3a3a3a",
+   "trim": "#2b2b2b",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Gastropub MamaInés",
+   "sub": "MEDITERRANEAN",
+   "font": "rounded",
+   "bg": "#2b2b2b",
+   "fg": "#f2c14e",
+   "border": "#f2c14e",
+   "w": 7.5,
+   "h": 1.3,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#2b2b2b",
+   "stripe": "#f2c14e",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#6b4a2a",
+   "chair": "#4a3a2a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4708453991 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo bar +12; cocina +2; dirección +2; Plaza Mayor / centro (254 m) +23.7"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n1551803079",
+  "name": "Telepizza",
+  "auto": true,
+  "rank": 39,
+  "anchor": {
+   "x": -3504.5,
+   "z": -3125.3
+  },
+  "facing": 355,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f4efe4",
+   "plinth": "#8a1a14",
+   "trim": "#e2231a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Telepizza",
+   "font": "italic",
+   "bg": "#e2231a",
+   "fg": "#ffd400",
+   "border": "#ffd400",
+   "w": 4.7,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#e2231a",
+   "stripe": "#ffd400",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n1551803079 (nombre, fast_food)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo fast_food +12; cocina +2; cadena conocida +16; zona comercial N-340 (51 m) +9.6"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n13504829401",
+  "name": "Barracuda Beer&Rock",
+  "auto": true,
+  "rank": 40,
+  "anchor": {
+   "x": -5388.6,
+   "z": 5442
+  },
+  "facing": 239,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#efe4cc",
+   "plinth": "#8d1d22",
+   "trim": "#8d1d22",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Barracuda Beer&Rock",
+   "sub": "AMERICAN",
+   "font": "rounded",
+   "bg": "#8d1d22",
+   "fg": "#f6efe0",
+   "border": "#d9b66a",
+   "w": 7.5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#8d1d22",
+   "stripe": "#f6efe0",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#f2eee4",
+   "chair": "#1d3b5a",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13504829401 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.4 m)",
+   "ranking: tipo bar +12; teléfono +4; horario +4; cocina +2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n11390566730",
+  "name": "La Mafia se Sienta a La Mesa",
+  "auto": true,
+  "rank": 41,
+  "anchor": {
+   "x": -6601,
+   "z": 3567.3
+  },
+  "facing": 231,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#e9e2d3",
+   "plinth": "#3a3a3a",
+   "trim": "#2b2b2b",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "La Mafia se Sienta a La Me",
+   "sub": "ITALIAN",
+   "font": "script",
+   "bg": "#2b2b2b",
+   "fg": "#f2c14e",
+   "border": "#f2c14e",
+   "w": 7.5,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#2b2b2b",
+   "stripe": "#f2c14e",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#3a3a3a",
+   "chair": "#1d3b5a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n11390566730 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 5.2 m)",
+   "https://gastroranking.es/restaurantes/cadiz/chiclana-de-la-frontera",
+   "ranking: tipo restaurant +14; cocina +2; evidencia manual +23.5: agregador GastroRanking (Tripadvisor/Google/otros): 8129 opiniones"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n13430860301",
+  "name": "Taco Bell",
+  "auto": true,
+  "rank": 42,
+  "anchor": {
+   "x": -3528.7,
+   "z": -3237
+  },
+  "facing": 163,
+  "search": 28,
+  "width": 10,
+  "facade": {
+   "color": "#ece7ee",
+   "plinth": "#4a1556",
+   "trim": "#702082",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.8,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.8,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Taco Bell",
+   "font": "rounded",
+   "bg": "#702082",
+   "fg": "#ffffff",
+   "border": "#ff7ac6",
+   "w": 4.7,
+   "h": 1.3,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#702082",
+   "stripe": "#ff7ac6",
+   "depth": 1.4,
+   "w": 9,
+   "y": 3.15,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -3.8,
+     3.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -4.5,
+     4.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13430860301 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; cadena conocida +16; zona comercial N-340 (77 m) +9.4"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n4261286890",
+  "name": "La predilecta",
+  "auto": true,
+  "rank": 43,
+  "anchor": {
+   "x": -3700.8,
+   "z": -1908.5
+  },
+  "facing": 196,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f3f1ea",
+   "plinth": "#4b5563",
+   "trim": "#1d3b5a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "La predilecta",
+   "font": "rounded",
+   "bg": "#1d3b5a",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 5,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#1d3b5a",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#e3d5b8",
+   "chair": "#8d1d22",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4261286890 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo bar +12; Plaza Mayor / centro (109 m) +27.3"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n1569478533",
+  "name": "Popeyes",
+  "auto": true,
+  "rank": 44,
+  "anchor": {
+   "x": -3380.2,
+   "z": -3207.5
+  },
+  "facing": 167,
+  "search": 28,
+  "width": 13,
+  "facade": {
+   "color": "#f2e9dc",
+   "plinth": "#7a2d00",
+   "trim": "#f26b21",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.5
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Popeyes",
+   "font": "slab",
+   "bg": "#f26b21",
+   "fg": "#ffffff",
+   "border": "#7a2d00",
+   "w": 4,
+   "h": 1.3,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#f26b21",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 12,
+   "y": 3.15,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -5.3,
+     5.3
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6,
+     6
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n1569478533 (nombre, fast_food)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 1.3 m)",
+   "ranking: tipo fast_food +12; cocina +2; cadena conocida +16; zona comercial N-340 (111 m) +9.1"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n1568342535",
+  "name": "Tetería La Morería",
+  "auto": true,
+  "rank": 45,
+  "anchor": {
+   "x": -3680.8,
+   "z": -1933.5
+  },
+  "facing": 203,
+  "search": 28,
+  "width": 13,
+  "facade": {
+   "color": "#f0e8d8",
+   "plinth": "#a8442a",
+   "trim": "#a8442a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Tetería La Morería",
+   "font": "rounded",
+   "bg": "#f4ecd6",
+   "fg": "#3a2a1a",
+   "border": "#3a2a1a",
+   "w": 7.5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#a8442a",
+   "stripe": "#f4ecd6",
+   "depth": 1.4,
+   "w": 12,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#6b4a2a",
+   "chair": "#c9b38a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.1,
+    "z": 1.4,
+    "title": "DESAYUNOS",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.3,
+     5.3
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6,
+     6
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n1568342535 (nombre, cafe)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo cafe +11; Plaza Mayor / centro (81 m) +28.0"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n4261142419",
+  "name": "Tasca El 22",
+  "auto": true,
+  "rank": 46,
+  "anchor": {
+   "x": -3830.2,
+   "z": -2144.3
+  },
+  "facing": 41,
+  "search": 28,
+  "width": 8,
+  "facade": {
+   "color": "#efe4cc",
+   "plinth": "#8d1d22",
+   "trim": "#8d1d22",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.5
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -2.2,
+    "w": 2.4,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.3333333333333333,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Tasca El 22",
+   "font": "condensed",
+   "bg": "#8d1d22",
+   "fg": "#f6efe0",
+   "border": "#d9b66a",
+   "w": 5.3,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#8d1d22",
+   "stripe": "#f6efe0",
+   "depth": 1.4,
+   "w": 7,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 3,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#6b4a2a",
+   "chair": "#8d1d22",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 2.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -2.8,
+     2.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -3.5,
+     3.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4261142419 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo bar +12; dirección +2; Plaza Mayor / centro (202 m) +24.9"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n4261016398",
+  "name": "Taberna la ilusión",
+  "auto": true,
+  "rank": 47,
+  "anchor": {
+   "x": -3681.6,
+   "z": -1887.5
+  },
+  "facing": 114,
+  "search": 28,
+  "width": 10,
+  "facade": {
+   "color": "#efe4cc",
+   "plinth": "#8d1d22",
+   "trim": "#8d1d22",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.9000000000000004
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.8,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.8,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Taberna la ilusión",
+   "font": "condensed",
+   "bg": "#8d1d22",
+   "fg": "#f6efe0",
+   "border": "#d9b66a",
+   "w": 7.5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#8d1d22",
+   "stripe": "#f6efe0",
+   "depth": 1.4,
+   "w": 9,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 3,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#f2eee4",
+   "chair": "#2f4a33",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 3.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -3.8,
+     3.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -4.5,
+     4.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4261016398 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 1.4 m)",
+   "ranking: tipo bar +12; Plaza Mayor / centro (127 m) +26.8"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n4257163691",
+  "name": "Marisquería Manguita Novo Sancti Petri",
+  "auto": true,
+  "rank": 48,
+  "anchor": {
+   "x": -5353.5,
+   "z": 5503.7
+  },
+  "facing": 331,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f1e1bf",
+   "plinth": "#7a4a1d",
+   "trim": "#c46a1d",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Marisquería Manguita Novo ",
+   "sub": "FISH",
+   "font": "rounded",
+   "bg": "#c46a1d",
+   "fg": "#fff6e5",
+   "border": "#fff6e5",
+   "w": 5,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#c46a1d",
+   "stripe": "#fff6e5",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#6b4a2a",
+   "chair": "#8d1d22",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4257163691 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; teléfono +4; cocina +2; dirección +2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n2093847079",
+  "name": "Tapería La Flamenca",
+  "auto": true,
+  "rank": 49,
+  "anchor": {
+   "x": -3886,
+   "z": -2082.8
+  },
+  "facing": 230,
+  "search": 28,
+  "width": 13,
+  "facade": {
+   "color": "#f1e1bf",
+   "plinth": "#7a4a1d",
+   "trim": "#c46a1d",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Tapería La Flamenca",
+   "font": "serif",
+   "bg": "#c46a1d",
+   "fg": "#fff6e5",
+   "border": "#fff6e5",
+   "w": 7.5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#c46a1d",
+   "stripe": "#fff6e5",
+   "depth": 1.4,
+   "w": 12,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#e3d5b8",
+   "chair": "#1d3b5a",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.1,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.3,
+     5.3
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6,
+     6
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n2093847079 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.5 m)",
+   "ranking: tipo restaurant +14; Plaza Mayor / centro (223 m) +24.4"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n2430964867",
+  "name": "Burger King",
+  "auto": true,
+  "rank": 50,
+  "anchor": {
+   "x": -3312,
+   "z": -3094.4
+  },
+  "facing": 176,
+  "search": 28,
+  "width": 9,
+  "facade": {
+   "color": "#f0e6d2",
+   "plinth": "#502314",
+   "trim": "#502314",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.8,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.8,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Burger King",
+   "font": "rounded",
+   "bg": "#d62300",
+   "fg": "#fff2d6",
+   "border": "#f5821f",
+   "w": 5.3,
+   "h": 1.3,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#502314",
+   "stripe": "#f5821f",
+   "depth": 1.4,
+   "w": 8,
+   "y": 3.15,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -3.3,
+     3.3
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -4,
+     4
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n2430964867 (nombre, fast_food)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo fast_food +12; cocina +2; cadena conocida +16; zona comercial N-340 (190 m) +8.4"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n13136527202",
+  "name": "Sawarma Amsterdam 2",
+  "auto": true,
+  "rank": 51,
+  "anchor": {
+   "x": -3522.9,
+   "z": -2007.8
+  },
+  "facing": 57,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#f4f1e8",
+   "plinth": "#0f6b73",
+   "trim": "#0f6b73",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.9000000000000004
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Sawarma Amsterdam 2",
+   "font": "rounded",
+   "bg": "#0f6b73",
+   "fg": "#ffffff",
+   "border": "#e9f5f3",
+   "w": 7.5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#0f6b73",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#6b4a2a",
+   "chair": "#4a3a2a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13136527202 (nombre, fast_food)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo fast_food +12; Plaza Mayor / centro (151 m) +26.2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n3404147244",
+  "name": "Cafetería Bar Novopan",
+  "auto": true,
+  "rank": 52,
+  "anchor": {
+   "x": -5400.8,
+   "z": 5413.6
+  },
+  "facing": 329,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#f1e1bf",
+   "plinth": "#7a4a1d",
+   "trim": "#c46a1d",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Cafetería Bar Novopan",
+   "sub": "BREAKFAST",
+   "font": "rounded",
+   "bg": "#c46a1d",
+   "fg": "#fff6e5",
+   "border": "#fff6e5",
+   "w": 7.5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#c46a1d",
+   "stripe": "#fff6e5",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#3a3a3a",
+   "chair": "#2f4a33",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "DESAYUNOS",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n3404147244 (nombre, cafe)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo cafe +11; teléfono +4; horario +4; cocina +2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n1568342555",
+  "name": "Las Cuatro Esquinas",
+  "auto": true,
+  "rank": 56,
+  "anchor": {
+   "x": -3718.8,
+   "z": -1897.7
+  },
+  "facing": 204,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#eee3d6",
+   "plinth": "#5a2d4a",
+   "trim": "#5a2d4a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Las Cuatro Esquinas",
+   "font": "script",
+   "bg": "#5a2d4a",
+   "fg": "#f6e7ef",
+   "border": "#e0b4cc",
+   "w": 7.5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#5a2d4a",
+   "stripe": "#f6e7ef",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#6b4a2a",
+   "chair": "#1d3b5a",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "DESAYUNOS",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n1568342555 (nombre, cafe)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.2 m)",
+   "ranking: tipo cafe +11; Plaza Mayor / centro (125 m) +26.9"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n1991154622",
+  "name": "Cervecería El Patio",
+  "auto": true,
+  "rank": 57,
+  "anchor": {
+   "x": -3845.9,
+   "z": -2031.9
+  },
+  "facing": 44,
+  "search": 28,
+  "width": 11,
+  "facade": {
+   "color": "#ece6d2",
+   "plinth": "#2f4a33",
+   "trim": "#2f4a33",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.8000000000000003
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.8,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.8,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Cervecería El Patio",
+   "font": "rounded",
+   "bg": "#2f4a33",
+   "fg": "#f4ecd6",
+   "border": "#c9b36a",
+   "w": 7.5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#2f4a33",
+   "stripe": "#f4ecd6",
+   "depth": 1.4,
+   "w": 10,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 4,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#6b4a2a",
+   "chair": "#2f4a33",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 4.1,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -4.3,
+     4.3
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -5,
+     5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n1991154622 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.7 m)",
+   "ranking: tipo bar +12; Plaza Mayor / centro (173 m) +25.7"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n4261124202",
+  "name": "La Española",
+  "auto": true,
+  "rank": 59,
+  "anchor": {
+   "x": -3837.8,
+   "z": -2095.5
+  },
+  "facing": 135,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#efe4cc",
+   "plinth": "#8d1d22",
+   "trim": "#8d1d22",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.9000000000000004
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "La Española",
+   "font": "condensed",
+   "bg": "#8d1d22",
+   "fg": "#f6efe0",
+   "border": "#d9b66a",
+   "w": 5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#8d1d22",
+   "stripe": "#f6efe0",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#f2eee4",
+   "chair": "#2f2f2f",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4261124202 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo bar +12; Plaza Mayor / centro (183 m) +25.4"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n4261142309",
+  "name": "Peña taurina Emilio Oliva",
+  "auto": true,
+  "rank": 60,
+  "anchor": {
+   "x": -3817.1,
+   "z": -2130.6
+  },
+  "facing": 140,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#eee3d6",
+   "plinth": "#5a2d4a",
+   "trim": "#5a2d4a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Peña taurina Emilio Oliva",
+   "font": "script",
+   "bg": "#5a2d4a",
+   "fg": "#f6e7ef",
+   "border": "#e0b4cc",
+   "w": 7.5,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#5a2d4a",
+   "stripe": "#f6e7ef",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#e3d5b8",
+   "chair": "#2f4a33",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4261142309 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo bar +12; Plaza Mayor / centro (184 m) +25.4"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n4261199390",
+  "name": "Chico Valerio",
+  "auto": true,
+  "rank": 61,
+  "anchor": {
+   "x": -3729.6,
+   "z": -2152.3
+  },
+  "facing": 280,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f0e8d8",
+   "plinth": "#a8442a",
+   "trim": "#a8442a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.5
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Chico Valerio",
+   "font": "rounded",
+   "bg": "#f4ecd6",
+   "fg": "#3a2a1a",
+   "border": "#3a2a1a",
+   "w": 5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#a8442a",
+   "stripe": "#f4ecd6",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#e3d5b8",
+   "chair": "#2f4a33",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "DESAYUNOS",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4261199390 (nombre, cafe)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo cafe +11; Plaza Mayor / centro (147 m) +26.3"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Supermercado El Jamón@-4089.1,-1911.3",
+  "name": "Supermercado El Jamón",
+  "auto": true,
+  "rank": 62,
+  "anchor": {
+   "x": -4089.1,
+   "z": -1911.3
+  },
+  "facing": 358,
+  "search": 28,
+  "width": 8,
+  "facade": {
+   "color": "#f1e1bf",
+   "plinth": "#7a4a1d",
+   "trim": "#c46a1d",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -2.2,
+    "w": 2.4,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.3333333333333333,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Supermercado El Jamón",
+   "font": "sans",
+   "bg": "#c46a1d",
+   "fg": "#fff6e5",
+   "border": "#fff6e5",
+   "w": 7,
+   "h": 1,
+   "y": 4.25,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -2.8,
+     2.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Supermercado El Jamón@-4089.1,-1911.3 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 1.0 m)",
+   "ranking: tipo supermarket +16; dirección +2; Plaza Mayor / centro (428 m) +19.3"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n4261090497",
+  "name": "Take Away",
+  "auto": true,
+  "rank": 63,
+  "anchor": {
+   "x": -3943.3,
+   "z": -1955.1
+  },
+  "facing": 173,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#ece6d2",
+   "plinth": "#2f4a33",
+   "trim": "#2f4a33",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Take Away",
+   "sub": "CREPE",
+   "font": "rounded",
+   "bg": "#2f4a33",
+   "fg": "#f4ecd6",
+   "border": "#c9b36a",
+   "w": 4.7,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#2f4a33",
+   "stripe": "#f4ecd6",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#e3d5b8",
+   "chair": "#2f2f2f",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4261090497 (nombre, fast_food)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo fast_food +12; cocina +2; Plaza Mayor / centro (276 m) +23.1"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Centro Comercial Centro Plaza@-4098.4,-2106.7",
+  "name": "Centro Comercial Centro Plaza",
+  "auto": true,
+  "rank": 64,
+  "anchor": {
+   "x": -4098.4,
+   "z": -2106.7
+  },
+  "facing": 46,
+  "search": 28,
+  "width": 15,
+  "facade": {
+   "color": "#f1e1bf",
+   "plinth": "#7a4a1d",
+   "trim": "#c46a1d",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.5
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -2.7,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 2.7,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Centro Comercial Centro Pl",
+   "font": "sans",
+   "bg": "#c46a1d",
+   "fg": "#fff6e5",
+   "border": "#fff6e5",
+   "w": 7.5,
+   "h": 1.2,
+   "y": 4.25,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -6.3,
+     6.3
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Centro Comercial Centro Plaza@-4098.4,-2106.7 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; dirección +2; Plaza Mayor / centro (434 m) +19.1"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:El Jamón@-3980,-2211.3",
+  "name": "El Jamón",
+  "auto": true,
+  "rank": 65,
+  "anchor": {
+   "x": -3980,
+   "z": -2211.3
+  },
+  "facing": 315,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f1e1bf",
+   "plinth": "#7a4a1d",
+   "trim": "#c46a1d",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "El Jamón",
+   "font": "sans",
+   "bg": "#c46a1d",
+   "fg": "#fff6e5",
+   "border": "#fff6e5",
+   "w": 4.3,
+   "h": 1.1,
+   "y": 4.25,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:El Jamón@-3980,-2211.3 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; Plaza Mayor / centro (363 m) +20.9"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n4693191246",
+  "name": "Sushi Panda",
+  "auto": true,
+  "rank": 66,
+  "anchor": {
+   "x": -3629.2,
+   "z": -1645.2
+  },
+  "facing": 263,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#efe4cc",
+   "plinth": "#8d1d22",
+   "trim": "#8d1d22",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.8000000000000003
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Sushi Panda",
+   "sub": "SUSHI",
+   "font": "script",
+   "bg": "#8d1d22",
+   "fg": "#f6efe0",
+   "border": "#d9b66a",
+   "w": 5.3,
+   "h": 1.3,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#8d1d22",
+   "stripe": "#f6efe0",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#f2eee4",
+   "chair": "#2f2f2f",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4693191246 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; cocina +2; Plaza Mayor / centro (370 m) +20.8"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n679147705",
+  "name": "Teatro Moderno - Casa de la Cultura",
+  "auto": true,
+  "rank": 67,
+  "anchor": {
+   "x": -3795.9,
+   "z": -2065.5
+  },
+  "facing": 124,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f3f1ea",
+   "plinth": "#4b5563",
+   "trim": "#1d3b5a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Teatro Moderno - Casa de l",
+   "font": "sans",
+   "bg": "#1d3b5a",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 5,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#1d3b5a",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#e3d5b8",
+   "chair": "#8d1d22",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n679147705 (nombre, theatre)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo theatre +10; Plaza Mayor / centro (132 m) +26.7"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n5924075929",
+  "name": "Pizzeria Trattoria Nuovo Sassari",
+  "auto": true,
+  "rank": 68,
+  "anchor": {
+   "x": -5367.7,
+   "z": 5397.2
+  },
+  "facing": 329,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#f1e1bf",
+   "plinth": "#7a4a1d",
+   "trim": "#c46a1d",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Pizzeria Trattoria Nuovo S",
+   "sub": "PIZZA",
+   "font": "serif",
+   "bg": "#c46a1d",
+   "fg": "#fff6e5",
+   "border": "#fff6e5",
+   "w": 7.5,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#c46a1d",
+   "stripe": "#fff6e5",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#e3d5b8",
+   "chair": "#1d3b5a",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Pizzas al horno",
+     "Pasta fresca"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n5924075929 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; teléfono +4; cocina +2; dirección +2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "w428046298",
+  "name": "Salones Pico de Oro",
+  "auto": true,
+  "rank": 69,
+  "anchor": {
+   "x": -3383.4,
+   "z": -2002.6
+  },
+  "facing": 151,
+  "search": 28,
+  "width": 9,
+  "facade": {
+   "color": "#efe4cc",
+   "plinth": "#8d1d22",
+   "trim": "#8d1d22",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.8,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.8,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Salones Pico de Oro",
+   "font": "serif",
+   "bg": "#8d1d22",
+   "fg": "#f6efe0",
+   "border": "#d9b66a",
+   "w": 7.5,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#8d1d22",
+   "stripe": "#f6efe0",
+   "depth": 1.4,
+   "w": 8,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 3,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#f2eee4",
+   "chair": "#4a3a2a",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 3.1,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -3.3,
+     3.3
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -4,
+     4
+    ]
+   }
+  ],
+  "sources": [
+   "OSM w428046298 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; Plaza Mayor / centro (290 m) +22.7"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n13286266786",
+  "name": "Restaurant Aldiana Andalusien",
+  "auto": true,
+  "rank": 70,
+  "anchor": {
+   "x": -5228.6,
+   "z": 6599.8
+  },
+  "facing": 141,
+  "search": 28,
+  "width": 22,
+  "facade": {
+   "color": "#eceff3",
+   "plinth": "#00005f",
+   "trim": "#00005f",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.8000000000000003
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 3.4,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Restaurant Aldiana Andalus",
+   "font": "sans",
+   "bg": "#00005f",
+   "fg": "#ffffff",
+   "border": "#ff6a13",
+   "w": 7.5,
+   "h": 1.2,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#00005f",
+   "stripe": "#ff6a13",
+   "depth": 1,
+   "w": 21,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -9.8,
+     9.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13286266786 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; cadena conocida +16; La Barrosa (paseo marítimo) (840 m) +6.6"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n5395917514",
+  "name": "Lito's Corner",
+  "auto": true,
+  "rank": 71,
+  "anchor": {
+   "x": -5228,
+   "z": 5512.5
+  },
+  "facing": 188,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f3f1ea",
+   "plinth": "#4b5563",
+   "trim": "#1d3b5a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.9000000000000004
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Lito's Corner",
+   "font": "rounded",
+   "bg": "#1d3b5a",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 5,
+   "h": 1.3,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#1d3b5a",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 1,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#3a3a3a",
+   "chair": "#4a3a2a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n5395917514 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; terraza +5; dirección +2; La Barrosa (paseo marítimo) (356 m) +15.5"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n13448559701",
+  "name": "Cafetería Churrería Bar Central",
+  "auto": true,
+  "rank": 72,
+  "anchor": {
+   "x": -3940.4,
+   "z": -2052.1
+  },
+  "facing": 81,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#f3f1ea",
+   "plinth": "#4b5563",
+   "trim": "#1d3b5a",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.5
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Cafetería Churrería Bar Ce",
+   "font": "light",
+   "bg": "#1d3b5a",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 5,
+   "h": 1.2,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#1d3b5a",
+   "stripe": "#ffffff",
+   "depth": 1.4,
+   "w": 5,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 2,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": false,
+   "table": "#f2eee4",
+   "chair": "#c9b38a",
+   "chairs": 3
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 1.6,
+    "z": 1.4,
+    "title": "DESAYUNOS",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13448559701 (nombre, cafe)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo cafe +11; dirección +2; Plaza Mayor / centro (269 m) +23.3"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n13463689201",
+  "name": "El rincón de Paquiro",
+  "auto": true,
+  "rank": 73,
+  "anchor": {
+   "x": -3692.6,
+   "z": -2330.3
+  },
+  "facing": 116,
+  "search": 28,
+  "width": 8,
+  "facade": {
+   "color": "#ece6d2",
+   "plinth": "#2f4a33",
+   "trim": "#2f4a33",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -2.2,
+    "w": 2.4,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.3333333333333333,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "El rincón de Paquiro",
+   "font": "script",
+   "bg": "#2f4a33",
+   "fg": "#f4ecd6",
+   "border": "#c9b36a",
+   "w": 7,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#2f4a33",
+   "stripe": "#f4ecd6",
+   "depth": 1.4,
+   "w": 7,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 3,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#e3d5b8",
+   "chair": "#c9b38a",
+   "chairs": 2
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 2.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -2.8,
+     2.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -3.5,
+     3.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13463689201 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo bar +12; dirección +2; Plaza Mayor / centro (314 m) +22.2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Maxi Dia@-3198.2,-1089.1",
+  "name": "Maxi Dia",
+  "auto": true,
+  "rank": 74,
+  "anchor": {
+   "x": -3198.2,
+   "z": -1089.1
+  },
+  "facing": 82,
+  "search": 28,
+  "width": 22,
+  "facade": {
+   "color": "#f1eee6",
+   "plinth": "#8a1a14",
+   "trim": "#e30613",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 3.4,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 5.4,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Maxi Dia",
+   "font": "rounded",
+   "bg": "#e30613",
+   "fg": "#ffffff",
+   "border": "#ffffff",
+   "w": 4.3,
+   "h": 1,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#e30613",
+   "stripe": "#ffffff",
+   "depth": 1,
+   "w": 21,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -9.8,
+     9.8
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Maxi Dia@-3198.2,-1089.1 (nombre, supermarket)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo supermarket +16; cadena conocida +16; Plaza Mayor / centro (1035 m) +4.1"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n13483904201",
+  "name": "Tennisbar Aldiana Andalusien",
+  "auto": true,
+  "rank": 75,
+  "anchor": {
+   "x": -5033.4,
+   "z": 6452
+  },
+  "facing": 272,
+  "search": 28,
+  "width": 17,
+  "facade": {
+   "color": "#eceff3",
+   "plinth": "#00005f",
+   "trim": "#00005f",
+   "plinthH": 0.9,
+   "groundH": 4.2,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -2.7,
+    "w": 5,
+    "h": 2.4,
+    "sill": 0.3
+   },
+   {
+    "t": "door",
+    "u": 2.7,
+    "w": 3.4,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Tennisbar Aldiana Andalusi",
+   "font": "sans",
+   "bg": "#00005f",
+   "fg": "#ffffff",
+   "border": "#ff6a13",
+   "w": 7.5,
+   "h": 1.2,
+   "y": 4.25,
+   "u": 0
+  },
+  "awning": {
+   "color": "#00005f",
+   "stripe": "#ff6a13",
+   "depth": 1,
+   "w": 16,
+   "y": 3.95,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -7.3,
+     7.3
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n13483904201 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.5 m)",
+   "ranking: tipo bar +12; cadena conocida +16; La Barrosa (paseo marítimo) (785 m) +7.6"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)",
+    "colores/tipografía de marca (identidad pública de la cadena)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía"
+   ]
+  }
+ },
+ {
+  "id": "n4708434290",
+  "name": "Chiringuito Bongo",
+  "auto": true,
+  "rank": 134,
+  "anchor": {
+   "x": -9257.7,
+   "z": 944
+  },
+  "facing": 200,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#f6f3ea",
+   "plinth": "#b79d6b",
+   "trim": "#f6efe0",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.8000000000000003
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Chiringuito Bongo",
+   "font": "light",
+   "bg": "#12a4b8",
+   "fg": "#ffffff",
+   "border": "#f6efe0",
+   "w": 7.4,
+   "h": 1.3,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#f6efe0",
+   "stripe": "#12a4b8",
+   "depth": 1.4,
+   "w": 13,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 5,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#f6efe0",
+   "chair": "#c9b38a",
+   "chairs": 2,
+   "parasolColor": "#f6efe0"
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 5.6,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n4708434290 (nombre, bar)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 7.8 m)",
+   "ranking: tipo bar +12; dirección +2; Sancti Petri (311 m) +16.3"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n5783697297",
+  "name": "Sushi Panda Beach",
+  "auto": true,
+  "rank": 165,
+  "anchor": {
+   "x": -6803,
+   "z": 3298.8
+  },
+  "facing": 223,
+  "search": 28,
+  "width": 9,
+  "facade": {
+   "color": "#f6f3ea",
+   "plinth": "#b79d6b",
+   "trim": "#f6efe0",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.8,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.8,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Sushi Panda Beach",
+   "sub": "ASIAN",
+   "font": "light",
+   "bg": "#12a4b8",
+   "fg": "#ffffff",
+   "border": "#f6efe0",
+   "w": 7.4,
+   "h": 1.3,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#f6efe0",
+   "stripe": "#12a4b8",
+   "depth": 1.4,
+   "w": 8,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 3,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#f6efe0",
+   "chair": "#2f4a33",
+   "chairs": 3,
+   "parasolColor": "#f6efe0"
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 3.1,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -3.3,
+     3.3
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -4,
+     4
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n5783697297 (nombre, restaurant)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: tipo restaurant +14; teléfono +4; terraza +5; cocina +2"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "n11392495726",
+  "name": "Varadero Beach Bar",
+  "auto": true,
+  "rank": 451,
+  "anchor": {
+   "x": -6152.7,
+   "z": 4617.4
+  },
+  "facing": 240,
+  "search": 28,
+  "width": 9,
+  "facade": {
+   "color": "#f6f3ea",
+   "plinth": "#b79d6b",
+   "trim": "#f6efe0",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.8000000000000003
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.8,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.8,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": true,
+  "sign": {
+   "text": "Varadero Beach Bar",
+   "font": "light",
+   "bg": "#12a4b8",
+   "fg": "#ffffff",
+   "border": "#f6efe0",
+   "w": 7.5,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "awning": {
+   "color": "#f6efe0",
+   "stripe": "#12a4b8",
+   "depth": 1.4,
+   "w": 8,
+   "y": 3.15,
+   "u": 0
+  },
+  "terrace": {
+   "rows": 2,
+   "cols": 3,
+   "offset": 2.6,
+   "rowGap": 1.9,
+   "colGap": 2.1,
+   "u": 0,
+   "parasol": true,
+   "table": "#f6efe0",
+   "chair": "#c9b38a",
+   "chairs": 2,
+   "parasolColor": "#f6efe0"
+  },
+  "extras": [
+   {
+    "t": "menuboard",
+    "u": 3.1,
+    "z": 1.4,
+    "title": "CARTA",
+    "lines": [
+     "Menú del día",
+     "Tapas y raciones"
+    ]
+   },
+   {
+    "t": "planters",
+    "u": [
+     -3.3,
+     3.3
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -4,
+     4
+    ]
+   }
+  ],
+  "sources": [
+   "OSM n11392495726 (nombre, pub)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 1.0 m)",
+   "ranking: tipo pub +12"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Discoteca Le Grand@-3489.7,-3256.4",
+  "name": "Discoteca Le Grand",
+  "auto": true,
+  "rank": 900,
+  "anchor": {
+   "x": -3489.7,
+   "z": -3256.4
+  },
+  "facing": 253,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#1d1a26",
+   "plinth": "#0e0c14",
+   "trim": "#14101f",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.2
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Discoteca Le Grand",
+   "font": "condensed",
+   "bg": "#14101f",
+   "fg": "#ff4fd8",
+   "border": "#39e6ff",
+   "w": 7.5,
+   "h": 1.1,
+   "y": 3.45,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Discoteca Le Grand@-3489.7,-3256.4 (nombre, nightclub)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: ocio nocturno (venues.json)"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Soho@-5307.8,5477.3",
+  "name": "Soho",
+  "auto": true,
+  "rank": 900,
+  "anchor": {
+   "x": -5307.8,
+   "z": 5477.3
+  },
+  "facing": 9,
+  "search": 28,
+  "width": 6,
+  "facade": {
+   "color": "#1d1a26",
+   "plinth": "#0e0c14",
+   "trim": "#14101f",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.5
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.7,
+    "w": 1.6,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Soho",
+   "font": "condensed",
+   "bg": "#14101f",
+   "fg": "#ff4fd8",
+   "border": "#39e6ff",
+   "w": 3,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -1.8,
+     1.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -2.5,
+     2.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Soho@-5307.8,5477.3 (nombre, nightclub)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: ocio nocturno (venues.json)"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Noha Sancti Petri@-3807.3,6877.4",
+  "name": "Noha Sancti Petri",
+  "auto": true,
+  "rank": 900,
+  "anchor": {
+   "x": -3807.3,
+   "z": 6877.4
+  },
+  "facing": 298,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#1d1a26",
+   "plinth": "#0e0c14",
+   "trim": "#14101f",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.9000000000000004
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Noha Sancti Petri",
+   "font": "condensed",
+   "bg": "#14101f",
+   "fg": "#ff4fd8",
+   "border": "#39e6ff",
+   "w": 7.4,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Noha Sancti Petri@-3807.3,6877.4 (nombre, nightclub)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: ocio nocturno (venues.json)"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Embrujo Chiclana@-4231.5,-2765.7",
+  "name": "Embrujo Chiclana",
+  "auto": true,
+  "rank": 900,
+  "anchor": {
+   "x": -4231.5,
+   "z": -2765.7
+  },
+  "facing": 116,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#1d1a26",
+   "plinth": "#0e0c14",
+   "trim": "#14101f",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.5
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Embrujo Chiclana",
+   "font": "condensed",
+   "bg": "#14101f",
+   "fg": "#ff4fd8",
+   "border": "#39e6ff",
+   "w": 7,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Embrujo Chiclana@-4231.5,-2765.7 (nombre, nightclub)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: ocio nocturno (venues.json)"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Capote O'Donnell@-6146.2,4589.9",
+  "name": "Capote O'Donnell",
+  "auto": true,
+  "rank": 900,
+  "anchor": {
+   "x": -6146.2,
+   "z": 4589.9
+  },
+  "facing": 322,
+  "search": 28,
+  "width": 14,
+  "facade": {
+   "color": "#1d1a26",
+   "plinth": "#0e0c14",
+   "trim": "#14101f",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 3.5
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 0,
+    "w": 2,
+    "h": 2.2
+   },
+   {
+    "t": "window",
+    "u": 3.6,
+    "w": 3.2,
+    "h": 1.7,
+    "sill": 0.9
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Capote O'Donnell",
+   "font": "condensed",
+   "bg": "#14101f",
+   "fg": "#ff4fd8",
+   "border": "#39e6ff",
+   "w": 7,
+   "h": 1,
+   "y": 3.45,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -5.8,
+     5.8
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -6.5,
+     6.5
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Capote O'Donnell@-6146.2,4589.9 (nombre, nightclub)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: ocio nocturno (venues.json)"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ },
+ {
+  "id": "v:Discoteca Blue Dolfin@-5178.9,6696",
+  "name": "Discoteca Blue Dolfin",
+  "auto": true,
+  "rank": 900,
+  "anchor": {
+   "x": -5178.9,
+   "z": 6696
+  },
+  "facing": 301,
+  "search": 28,
+  "width": 7,
+  "facade": {
+   "color": "#1d1a26",
+   "plinth": "#0e0c14",
+   "trim": "#14101f",
+   "plinthH": 0.9,
+   "groundH": 3.4,
+   "winSpacing": 2.6
+  },
+  "shopfront": [
+   {
+    "t": "window",
+    "u": -1.95,
+    "w": 1.9,
+    "h": 1.7,
+    "sill": 0.9
+   },
+   {
+    "t": "door",
+    "u": 1.1666666666666667,
+    "w": 2,
+    "h": 2.2
+   }
+  ],
+  "interior": false,
+  "sign": {
+   "text": "Discoteca Blue Dolfin",
+   "font": "condensed",
+   "bg": "#14101f",
+   "fg": "#ff4fd8",
+   "border": "#39e6ff",
+   "w": 6,
+   "h": 1.3,
+   "y": 3.45,
+   "u": 0
+  },
+  "extras": [
+   {
+    "t": "planters",
+    "u": [
+     -2.3,
+     2.3
+    ]
+   },
+   {
+    "t": "lamps",
+    "u": [
+     -3,
+     3
+    ]
+   }
+  ],
+  "sources": [
+   "OSM v:Discoteca Blue Dolfin@-5178.9,6696 (nombre, nightclub)",
+   "Catastro INSPIRE: huella del edificio más cercano (fachada = arista más próxima al punto OSM, distancia 0.0 m)",
+   "ranking: ocio nocturno (venues.json)"
+  ],
+  "confidence": {
+   "verified": [
+    "nombre",
+    "posición (OSM)",
+    "edificio/huella (Catastro)"
+   ],
+   "guessed": [
+    "orientación de fachada (arista más cercana)",
+    "colores de fachada/toldo",
+    "huecos y puerta",
+    "terraza y mobiliario",
+    "tipografía y paleta (no se encontró foto)"
+   ]
+  }
+ }
+]
